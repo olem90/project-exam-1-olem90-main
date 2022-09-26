@@ -453,7 +453,7 @@ html {
         border: none;
     }
     .recipe-content > h2 {
-        margin-right: 45px;
+        margin-right: 40px;
         flex-shrink: 0;
         width:260px;
     }
