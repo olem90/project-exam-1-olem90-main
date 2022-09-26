@@ -451,6 +451,7 @@ html {
         justify-content: center;
         align-items: center;
         border: none;
+        margin-top: 10px;
     }
     .recipe-content > h2 {
         margin-right: 40px;
@@ -492,7 +493,6 @@ html {
      }
      .wp-container-3 {
         margin-bottom: 25px;
-
      }
      .wp-image-78,.wp-image-164, .wp-image-162,.wp-image-141, .wp-image-159,.wp-image-52, .wp-image-63, .wp-image-74, .wp-image-115, .wp-image-69, .wp-image-131, .wp-image-143, .wp-image-150, .wp-image-156,.wp-image-147 {
         width: 310px;
@@ -501,6 +501,9 @@ html {
      }
      .logo-image-details {
         margin-left: -70px;
+     }
+     .header-h1-details {
+        margin-bottom: 0;
      }
 }
 @media(max-width:436px) {
