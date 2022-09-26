@@ -504,6 +504,7 @@ html {
      }
      .header-h1-details {
         margin-bottom: 0;
+        margin-left: 90px;
      }
 }
 @media(max-width:436px) {
