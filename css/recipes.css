@@ -475,8 +475,8 @@ html {
         left: 13px;
         margin-block: 10px;
      }
-     .wp-container-2 {
-        margin-right: 75px;
+     .wp-container-2 > h3 {
+       margin-left: -30px;
      }
      .wp-container-6 {
         margin-left: 0;
