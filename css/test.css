@@ -1,0 +1,612 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: beige;
+    box-sizing: border-box;
+    min-height: 100%;
+    display: flex;
+}
+html {
+    height: 100%;
+    position: relative;
+}
+.test-carousel {
+    width: 898px;
+    height: 360px;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 80px;
+}
+.each-post > div {
+    margin: 16px 8px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(246, 255, 213);;;
+    border: 3px solid rgba(6, 138, 39, 0.3);
+    border-radius: 24px 0px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: 9.3px;
+}
+.test-carousel-slide {
+    display: flex;
+    height: 300px;
+    margin-left: 898px;
+}
+.hide-btn {
+    display: none;
+}
+.show-btn {
+    display: flex;
+}
+.final-post {
+    display: grid;
+    grid-column: 1fr 1fr;
+}
+.test-post-container > img {
+    width: 270px;
+    object-fit: cover;
+    height: 200px;
+}
+.test-post-container > h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.test-post-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+.test-image {
+    box-sizing: border-box;
+    padding: 10px;
+    height: 200px;
+}
+.each-post {
+    display: flex;
+}
+.each-post > div > img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+}
+.each-post > div > h4 {
+    text-align: center;
+}
+.home-header {
+    text-align: center;
+    border-block: 3px solid rgb(43, 42, 42, 0.7);
+    padding-block: 5px;
+}
+.nextBtn {
+    position: absolute;
+    top: 500px;
+    right: 18% ;
+    border-radius: 10px;
+    background-color:beige;
+    border: none;
+}
+.prevBtn {
+    border-radius: 10px;
+    position: absolute;
+    left: 18%;
+    top: 500px;
+    border: none;
+    background-color:beige;
+}
+.nextBtn:hover, .prevBtn:hover  {
+    background-color: rgb(30, 28, 28, 0.1);
+}
+.right-arrow {
+    padding-top: 3px;
+    padding-left: 5px;
+}
+.left-arrow {
+    padding-top: 3px;
+    padding-right: 5px;
+} 
+.view-recipe {
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+.view-recipe {
+    color: red;
+}
+.final-post:hover {
+    transform: scale(1.05);
+    transition: ease-in-out;
+    z-index: 99;
+    border: 3px solid rgb(4, 100, 28);
+}
+/*Media Queries for index page*/
+@media(max-width:1540px){
+    .nextBtn {
+    right: 15%;
+    top: 500px;
+    }
+    .prevBtn {
+    left: 15%;
+    top: 500px;
+    }
+}
+@media(max-width:1406px){
+    .nextBtn {
+        right: 11%;
+        top: 500px;
+    }
+    .prevBtn {
+        left: 11%;
+        top: 500px;
+    }
+}
+@media(max-width:1260px) {
+    .nextBtn {
+        right: 7%;
+        top: 500px;
+    }
+    .prevBtn {
+        left: 7%;
+        top: 500px;
+    }
+}
+@media(max-width:1142px){
+    .nextBtn {
+        position: absolute;
+        right: 3%;
+        top: 500px;
+    }
+        .prevBtn {
+        left: 3%;
+        top: 500px;
+    }
+}
+@media(max-width:1045px){
+    .nextBtn {
+        right: 10%;
+        top: 500px;
+    }
+    .prevBtn {
+        left: 10%;
+        top: 500px;
+    }
+    .each-post > div > img {
+        width: 152px;
+    }
+    .each-post > div {
+        width: 300px;
+        height: 90%;
+        margin-inline: 9px;
+    }
+    .test-carousel {
+        width: 710px;
+    }
+    .test-carousel-slide {
+        margin-left: 663px;
+        max-width: 203px;
+    }
+    .test-post-container {
+        margin-inline: 36px;
+        padding-inline: 20px;
+    }
+}
+@media(max-width:995px) {
+    .nextBtn {
+        right: 4%;
+        top: 500px;
+    }
+    .prevBtn {
+        left: 4%;
+        top: 500px;
+    }
+}
+@media(max-width:868px) {
+    .nextBtn {
+        right: 2%;
+        top: 500px;
+    }
+    .prevBtn {
+        left: 2%;
+        top: 500px;
+    }
+}
+@media(max-width:832px) {
+    .nextBtn {
+        display: none;
+    }
+    .prevBtn {
+        display: none;
+    }
+    .each-post > div {
+        width: 240px;
+        height: 90%;
+        margin-inline: 9px;
+    }
+    .each-post > div > img {
+        width: 230px;
+        margin-inline: auto;
+    }
+    .test-carousel-slide {
+        margin-left: 0px;
+        padding-inline: 32px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    #myDiv {
+        margin-inline: auto;
+        width:100%;
+        height: 100%;
+       margin-left: 520px;
+    }
+    .test-carousel {
+        overflow: visible;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin-top: 50px;
+    }
+    .each-post {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .index-footer {
+    position: absolute;
+    top: 216%;
+    width: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: 150px;
+    }
+    .header-container {
+        width:500px;
+        margin-inline: auto;
+    }
+   .header-h1 {
+    margin-inline: auto;
+   }
+   .test-post-container {
+    width: 500px;
+   }
+   .nav-index > ul > li > a {
+    margin-inline: auto;
+   }
+}
+@media(max-width:775px) {
+    .test-carousel-slide {
+        margin-left: 0px ;
+        width: 100%;
+        height: 100%;
+    }
+    #myDiv {
+        margin-left: 498px;
+        width: 100%;
+        height: 100%;
+    }
+    .test-post-container {
+        width: 2px;
+    }
+    .each-post > div {
+        width: 200px;
+    }
+    .each-post > div > img {
+        width: 190px;
+    }
+    .test-carousel {
+        width:90%;
+    }
+}
+@media(max-width:728px) {
+    #myDiv {
+        margin-left: 475px;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(max-width:700px) {
+    #myDiv {
+        margin-left: 430px;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(max-width:661px) {
+    .logo-image  {
+        width: 110px;
+        margin-top: 14px;
+    }
+    .nav-index > ul > a {
+        font-size: 15px;
+        padding-inline: 0;
+    }
+    .header-h1 {
+        font-size: 22px;
+    }
+    .nav-index > ul {
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+        margin-inline: auto;
+    }
+    .contact-footer  a {
+        right: 170px;
+    }
+    .about-footer  a {
+        right: 50px;
+    }
+    .home-header {
+        font-size: 16px;
+    }
+    .each-post > div > img {
+        width: 100%;
+    }
+    .view-recipe {
+       color: red;
+        font-size: 14px;
+    }
+    .final-post > h4 {
+        font-size: 14px;
+    }
+    #myDiv {
+        margin-left: 426px;
+    }
+    .test-post-container {
+        width: 100%;
+    }
+    .each-post > div {
+        width: 170px;
+    }
+    .each-post > div > img {
+        width: 100%;
+    }
+    .test-carousel {
+        width:90%;
+    }
+}
+@media(max-width:611px) {
+    #myDiv {
+        margin-left: 396px;
+    }
+    .header-h1 {
+        margin-right: 80px;
+    }
+}
+@media(max-width:580px) {
+    #myDiv {
+        margin-left: 362px;
+    }
+    .nav-index > ul {
+        width: fit-content;
+
+    }
+    .nav-index > ul > a {
+        margin-inline: 14px;
+    }
+}
+@media(max-width:552px) {
+    .nav-index > ul > a {
+        font-size: 14px;
+    }
+    .nav-index > ul {
+        gap: 4px;
+    }
+    .header-h1 {
+        font-size: 18px;
+    }
+    .logo-image  {
+        width: 96px;
+        margin-top: 8px;
+    }
+    .final-post > h4 {
+        font-size: 14px;
+        font-weight: normal; 
+    }
+    .index-footer {
+        top: 180%;
+    }
+    #myDiv {
+        margin-left: 340px;
+        width: 100%;
+        height: 100%;
+    }
+    .test-post-container {
+        width: 2px;
+    }
+    .each-post > div {
+        width: 160px;
+    }
+    .each-post > div > img {
+        width:100%;
+    }
+    .test-carousel {
+        width:90%;
+    }
+}
+@media(max-width:516px) {
+    .contact-footer  a {
+        left: 376px;
+        bottom: 88px;
+    }
+    .about-footer  a {
+        left: 376px;
+        bottom: 40px;
+    }
+    .nav-index > ul {
+        max-width: 370px;
+        display: flex;
+        justify-items: center;
+    }
+    .nav-index > ul > a {
+       padding: 0;
+    }
+    #myDiv {
+        margin-left: 320px;
+    }
+}
+@media(max-width:496px) {
+    #myDiv {
+        margin-left: 300px;
+    }
+    .header-h1 {
+        margin-right: 60px;
+    }
+    .about-footer  a {
+        left: 340px;
+        bottom: 40px;
+        font-size: 14px;
+    }
+    .contact-footer  a {
+        left: 340px;
+        bottom: 88px;
+        font-size: 14px;
+    }
+    .social-media > p{
+        font-size: 14px;
+        margin-left: 12px;
+    }
+}
+/*Mobile Screen*/
+@media(max-width:479px){
+    #myDiv {
+        margin-left: 290px;
+    }
+    .nav-index > ul {
+        display: none;
+    }
+    .about-footer  a {
+        display: none;
+    }
+    .contact-footer  a {
+        display: none;
+    }
+}
+@media(max-width:460px) {
+    .social-media {
+        margin-inline: auto;
+    }
+    #myDiv {
+        margin-left: 280px;
+    }
+}
+@media(max-width:450px) {
+    #myDiv {
+        margin-left: 260px;
+    }
+}
+@media(max-width:440px) {
+    #myDiv {
+        margin-left: 250px;
+    }
+    .header-h1 {
+        margin-right: 50px;
+    }
+}
+@media(max-width:430px) {
+    #myDiv {
+        margin-left: 242px;
+    }
+}
+@media(max-width:420px) {
+    #myDiv {
+        margin-left: 234px;
+    }
+    .header-h1 {
+        margin-right: 35px;
+    }
+}
+@media(max-width:410px) {
+    #myDiv {
+        margin-left: 226px;
+    }
+}
+@media(max-width:400px) {
+    #myDiv {
+        margin-left: 238px;
+    }
+    .each-post > div {
+        width: 140px;
+        height: 87%;
+    }
+    .each-post > div > img {
+        width:100%;
+        height: 100px;
+    }
+}
+@media(max-width:390px) {
+    #myDiv {
+        margin-left: 225px;
+    }
+    .header-name {
+        font-size: 30px;
+    }
+    .logo-image {
+        width: 80px;
+        margin-top: 18px;
+    }
+    .header-h1 > h1 {
+       margin-top: 31px;
+       margin-left: 6px;
+    }
+}
+@media(max-width:372px) {
+    #myDiv {
+        margin-left: 215px;
+    }
+}
+@media(max-width:366px) {
+    #myDiv {
+        margin-left: 222px;
+    }
+    .final-post > h4 {
+        font-size: 12px;
+    }
+    .each-post > div {
+        width: 120px;
+        height: 87%;
+    }
+    .each-post > div > img {
+        width:100%;
+        height: 90px;
+    }
+}
+@media(max-width:358px) {
+    #myDiv {
+        margin-left: 210px;
+    }
+}
+@media(max-width:350px) {
+    #myDiv {
+        margin-left: 210px;
+    }
+}
+@media(max-width:343px) {
+    #myDiv {
+        margin-left: 205px;
+    }
+}
+@media(max-width:332px) {
+    #myDiv {
+        margin-left: 197px;
+    }
+    .header-name {
+        font-size: 26px;
+    }
+    .logo-image {
+        width: 70px;
+        margin-top: 21px;
+    }
+    .header-h1 > h1 {
+       margin-top: 34px;
+       margin-left: 8px;
+    }
+}
+@media(max-width:325px) {
+    #myDiv {
+        margin-left: 192px;
+    }
+}
