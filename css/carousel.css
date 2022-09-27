@@ -257,7 +257,8 @@ html {
     }
     .index-footer {
     position: absolute;
-    top: 266%;
+    bottom: 0;
+    left: 0;
     width: 100%;
     overflow: hidden;
     width: 100%;
