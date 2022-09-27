@@ -480,7 +480,7 @@ html {
     }
     .index-footer {
         position: absolute;
-        bottom: 0;
+        top: 200%;
         left: 0;
     }
     .about-footer  a {
