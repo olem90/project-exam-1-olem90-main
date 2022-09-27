@@ -84,7 +84,7 @@ html {
     background-color: rgb(10, 179, 32, 0.7);
     border-radius: 10px 0;
     margin-inline: auto;
-    margin-block: 30px;
+    margin-block: 60px;
 }
 .view-more-recipes:hover {
     cursor: pointer;
