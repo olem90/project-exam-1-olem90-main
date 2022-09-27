@@ -504,7 +504,7 @@ html {
      }
      .header-h1-details {
         margin-top: 0;
-        margin-left: 90px;
+        margin-left: 70px;
      }
 }
 @media(max-width:436px) {
@@ -556,6 +556,10 @@ html {
      }
      .recipe-content > p {
         width:260px;
+    }
+    .recipe-content > h2 {
+        font-size: 20px;
+        margin-right: 8px;
     }
 }
 @media(max-width:360px) {

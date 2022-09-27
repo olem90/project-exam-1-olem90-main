@@ -484,6 +484,9 @@ html {
     .contact-footer  a {
         display: none;
     }
+    .home-header {
+        margin-top: 50px;
+    }
 }
 @media(max-width:460px) {
     .social-media {
