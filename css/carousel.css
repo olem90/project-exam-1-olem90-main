@@ -487,6 +487,9 @@ html {
     .home-header {
         margin-top: 50px;
     }
+    .header-h1 {
+        margin-right: 90px;
+    }
 }
 @media(max-width:460px) {
     .social-media {
