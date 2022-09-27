@@ -139,7 +139,7 @@ nav > ul > a :hover {
     cursor: pointer;
     transition: all .5s ease-in-out;
     border: 1px solid #000;
-    right: 6px;
+    left: 6px;
     top: 74px;
     z-index: 99;
     background-color: rgb(96, 172, 66, 0.6);
