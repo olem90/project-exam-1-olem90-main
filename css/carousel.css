@@ -478,6 +478,11 @@ html {
     .nav-index > ul {
         display: none;
     }
+    .index-footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
     .about-footer  a {
         display: none;
     }

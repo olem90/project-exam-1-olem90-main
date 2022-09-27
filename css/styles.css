@@ -188,9 +188,6 @@ nav > ul > a :hover {
     margin-right: 90px;
     margin-top: 50px;
 }
-.menu-content > ul> a:hover {
-    opacity: 0.7;
-}
 .menu-content > ul> a > li {
     width:fit-content;
 }

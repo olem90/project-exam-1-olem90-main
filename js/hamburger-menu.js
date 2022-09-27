@@ -13,7 +13,8 @@ menuBtn.addEventListener('click', () => {
     else {
         menuContent.style.display="none";
         menuBtn.classList.remove("open");
-        menuBtn.style.background = "rgb(96, 172, 66)";
+        menuBtn.style.background = "rgb(96, 172, 66, 0.6)";
+        menuBtn.style.border= "1px solid black";
         menuOpen = false;
     }
     console.log('connection');
