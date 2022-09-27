@@ -274,6 +274,10 @@ html {
    margin-top: 28px ;
    width: 90px;
   }
+  .footer-container-contact {
+   top: 120%;
+    left: 0;
+  }
 }
 @media(max-width:448px) {
   .form-group > input {
