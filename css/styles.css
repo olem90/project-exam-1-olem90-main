@@ -163,10 +163,10 @@ nav > ul > a :hover {
     transition: all .5s ease-in-out;
 }
 .menu-btn-burger::before {
-    transform: translateY(-12px);
+    transform: translateY(-10px);
 }
 .menu-btn-burger::after {
-    transform: translateY(12px);
+    transform: translateY(10px);
 }
 .menu-content > ul {
     list-style-type: none;
