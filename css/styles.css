@@ -411,6 +411,10 @@ nav > ul > a :hover {
     .header-h1-about {
         margin-right: 90px;
     }
+    .about-footer {
+        position: absolute;
+        bottom: 0px;
+    }
  }
  @media(max-width:711px) {
     .about-image > img {
