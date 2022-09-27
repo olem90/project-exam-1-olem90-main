@@ -202,7 +202,6 @@ nav > ul > a :hover {
     text-align: left;
     width: 300px;
    justify-content: center;
-    border: 2px solid red;
     display: flex;
     justify-self: center;
 }
