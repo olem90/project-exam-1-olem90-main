@@ -295,8 +295,9 @@ nav > ul > a :hover {
     flex-shrink: 0;
  }
  .about-footer {
-    
-    margin-top: auto;
+    position: absolute;
+    top: 800px;
+    left: 0;
  }
  /*Recipe-details Page*/
  .recipe-details-container {
