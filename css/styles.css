@@ -293,6 +293,10 @@ nav > ul > a :hover {
  .header-h1-about > h1 {
     flex-shrink: 0;
  }
+ .about-footer {
+    display: block;
+    margin-top: auto;
+ }
  /*Recipe-details Page*/
  .recipe-details-container {
     margin-inline: auto;
