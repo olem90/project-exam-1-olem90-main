@@ -263,7 +263,7 @@ html {
     margin-inline: auto;
   }
   .header-h1 > h1 {
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 18px;
     font-size: 34px;
   }
@@ -271,7 +271,7 @@ html {
     width: fit-content;
   }
   .logo-image-contact {
-   margin-top: 28px ;
+   margin-top: 12px ;
    width: 90px;
   }
   .footer-container-contact {
