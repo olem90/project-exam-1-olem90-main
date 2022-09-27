@@ -201,7 +201,10 @@ nav > ul > a :hover {
 .menu-content > ul {
     text-align: left;
     width: 300px;
-    margin-left: 40px;
+   justify-content: center;
+    border: 2px solid red;
+    display: flex;
+    justify-self: center;
 }
 .menu-content {
     height: 100vh;
