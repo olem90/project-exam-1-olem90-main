@@ -206,7 +206,7 @@ nav > ul > a :hover {
 .menu-content {
     height: 100vh;
     width: 100%;
-    background: rgb(12, 12, 12, 0.94);
+    background: rgb(12, 12, 12, 0.9);
     position: fixed;
     z-index: 90;
     display: none;
