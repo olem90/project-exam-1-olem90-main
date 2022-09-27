@@ -147,10 +147,11 @@ nav > ul > a :hover {
     left: 26px;
     top: 74px;
     z-index: 99;
-    background-color: rgb(96, 172, 66, 0.6);
+  
     border-radius: 3px;
     display: none;
     margin-top: 20px;
+    border: none;
 }
 .menu-btn-burger {
     width: 30px;
