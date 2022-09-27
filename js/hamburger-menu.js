@@ -17,5 +17,4 @@ menuBtn.addEventListener('click', () => {
         menuBtn.style.border= "none";
         menuOpen = false;
     }
-    console.log('connection');
 });
