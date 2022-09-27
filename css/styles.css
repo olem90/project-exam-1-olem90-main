@@ -522,8 +522,9 @@ nav > ul > a :hover {
     .menu-btn {
         display: flex;
     }
-    .about-footer {
-
+    .footer-container-about {
+        top: 120%;
+        left: 0;
     }
  }
  @media(max-width:448px) {
