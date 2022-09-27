@@ -325,7 +325,6 @@ html {
     }
     .header-h1-recipes > h1 {
         margin-top: 22px;
-        margin-left: 10px;
     }
     .recipe-content > p {
         width:320px;
@@ -360,12 +359,10 @@ html {
     }
     .header-h1-recipes > h1 {
         font-size: 34px;
-        margin-left: -8px;
     }
     .logo-image-recipes {
         margin-top: 11px;
         width: 86px;
-        margin-left: -70px;
     }
     .recipes-h1 {
         font-size: 25px;
@@ -383,14 +380,14 @@ html {
 }
     .logo-image-recipes {
         width: 76px;
-        margin-top: 29px;
+        margin-top: 10px;
         margin-left: -65px;
 }
     .single-recipe {
         width: 230px;
 }
-.recipes-h1 {
-    font-size: 22px;
+    .recipes-h1 {
+        font-size: 22px;
 }
 }
 /*Media Queries for Recipe-details Page*/

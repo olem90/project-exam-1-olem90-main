@@ -491,13 +491,16 @@ html {
         display: none;
     }
     .home-header {
-        margin-top: 50px;
+        margin-top: 80px;
     }
     .header-h1 {
         margin-right: 120px;
     }
     .index-footer {
         top: 270%;
+    }
+    .logo-image {
+        margin-top: 14px;
     }
 }
 @media(max-width:460px) {
@@ -518,8 +521,9 @@ html {
         margin-left: 250px;
     }
     .header-h1 {
-        margin-right: 50px;
+        margin-right: 90px;
     }
+    
 }
 @media(max-width:430px) {
     #myDiv {
