@@ -6,13 +6,14 @@ menuBtn.addEventListener('click', () => {
     if (!menuOpen){
         menuContent.style.display="flex";
         menuBtn.classList.add("open");
-        menuBtn.style.background = "white";
+        menuBtn.style.background = "rgb(1, 218, 55)";
+        menuBtn.style.border= "none";
         menuOpen = true;
     }
     else {
         menuContent.style.display="none";
         menuBtn.classList.remove("open");
-        menuBtn.style.background = "beige";
+        menuBtn.style.background = "rgb(96, 172, 66)";
         menuOpen = false;
     }
     console.log('connection');
