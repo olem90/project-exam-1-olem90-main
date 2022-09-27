@@ -324,13 +324,15 @@ html {
         width:92%;
     }
     .header-h1-recipes > h1 {
-        margin-top: 40px;
-    }
-    .logo-image-recipes {
-        margin-top: 25px;
+        margin-top: 2px;
+        margin-left: 10px;
     }
     .recipe-content > p {
         width:320px;
+    }
+    .logo-image-recipes {
+        margin-top: -10px;
+        margin-left: -50px;
     }
 }
 @media(max-width:420px) {
