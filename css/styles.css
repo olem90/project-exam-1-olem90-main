@@ -147,7 +147,7 @@ nav > ul > a :hover {
 }
 .menu-btn-burger {
     width: 30px;
-    height: 6px;
+    height: 4px;
     background: #000;
     border-radius: 5px;
     transition: all .5s ease-in-out;
@@ -157,7 +157,7 @@ nav > ul > a :hover {
     content: "";
     position: absolute;
     width: 30px;
-    height: 6px;
+    height: 4px;
     background: #000;
     border-radius: 5px;
     transition: all .5s ease-in-out;
@@ -203,7 +203,7 @@ nav > ul > a :hover {
     height: 100vh;
     width: 100%;
     background: rgb(12, 12, 12, 0.88);
-    position: absolute;
+    position: fixed;
     z-index: 90;
     display: none;
     justify-content: center;
