@@ -19,6 +19,7 @@ async function fetchPosts(url){
        `; 
 
     })
+
    }
 
 fetchPosts(recipePostsUrl);

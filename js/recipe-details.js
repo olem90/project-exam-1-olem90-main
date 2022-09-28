@@ -3,40 +3,81 @@ const params = new URLSearchParams(queryString);
 const recipeId = params.get("id");
 const paramsCat = new URLSearchParams()
 const recipeDetailsContainer = document.querySelector(".recipe-details-container");
-const modal = document.querySelector (".modal");
-const captionUrl = "https://gamehub.olemariusrognan.com/wp-json/wp/v2/posts/" + recipeId;
-const recipeImage = document.querySelectorAll(".post-image > img");
+const captionUrl ="https://gamehub.olemariusrognan.com/wp-json/wp/v2/posts/"  +  recipeId + "?_embed" ;
+const modalImage = document.querySelector('.modal');
+
+console.log(recipeId);
 
 async function getDetails(){
     const response = await fetch(captionUrl);
     const details = await response.json();
     
+console.log(details)
+
     createHTML(details);
+
+
+
+
+
+
 }
 getDetails();
 
 function createHTML(details){
 
+
     const parser = new DOMParser();
     const content = { rendered: `${details.content.rendered}`};
     const doc = parser.parseFromString(content.rendered, "text/html");
-    const imgs = doc.querySelector("img");
+    const ul = doc.querySelectorAll("ul");
     
+    console.log(ul)
+    
+    const parser1 = new DOMParser();
+    const content1 = { rendered: `${details.content.rendered}`};
+    const doc1 = parser1.parseFromString(content1.rendered, "text/html");
+    const paragraph= doc1.querySelector("p");
+    
+    console.log(paragraph);
+    
+    const parser2 = new DOMParser();
+    const content2 = { rendered: `${details.content.rendered}`};
+    const doc2 = parser2.parseFromString(content2.rendered, "text/html");
+    const h3= doc.querySelector("h3")
+    
+    console.log(h3)
+    
+    const parser3 = new DOMParser();
+    const content3 = { rendered: `${details.content.rendered}`};
+    const doc3 = parser3.parseFromString(content3.rendered, "text/html");
+    const h4 = doc3.querySelector("h4");
+    
+    console.log(h4);
+
+
 recipeDetailsContainer.innerHTML = 
-    `
-    <div class="recipe-content"> 
-    ${details.content.rendered}
+    `<div class="recipe-content"> 
+    <h3>${details.title.rendered}</h3>
+    <img class= "details-image" src="${details._embedded["wp:featuredmedia"][0].source_url}">
+
+    <div class="modal">
+    <div class="modal-content">
+    <img class="modal-image" src="${details._embedded["wp:featuredmedia"][0].source_url}}">
+    </div>
+    </div>
+
+    <p class="caption-info">${paragraph.innerHTML}</p>
+    
+   <div class="cooking-info">${paragraph.nextSibling.nextSibling.innerHTML} </div>
+
+    <div class="details-content">
+    <div class="ingredients"><h4>${h3.innerHTML}</h4>
+    <ul>${ul[0].innerHTML}</ul></div>
+
+    <div class="method"><h4>${h4.textContent}</h4>
+    <ul>${ul[1].innerHTML}</ul></div>
+    </div>
     </div>`;
 
-    const modalImage = imgs.src ;
-
-    console.log(imgs)
-
-    modal.innerHTML = `
-    <img src="${ modalImage}">
-    `
-    ;
-
-    console.log(imgs[0])
 };
-
