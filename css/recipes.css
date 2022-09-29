@@ -192,6 +192,7 @@ html {
     object-fit: cover;
     border-radius: 0 25px;
     z-index: 99;
+    margin-inline: auto;
  }
  .show-modal {
     display:flex;
