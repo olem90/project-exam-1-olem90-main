@@ -52,8 +52,8 @@ recipeDetailsContainer.innerHTML =
 
     <div class="details-content">
     <div class="ingredients"><h4>${h3.innerHTML}</h4>
-    <ul>${ul[0].innerHTML}</ul></div>
-
+    <ul>${ul[0].innerHTML}</ul>
+    </div>
     <div class="method"><h4>${h4.textContent}</h4>
     <ul>${ul[1].innerHTML}</ul></div>
     </div>
@@ -66,13 +66,11 @@ recipeDetailsContainer.innerHTML =
     </div>
     </div>
     `
-
     recipeDetailsContainer.addEventListener('click', (event) => {
         if (event.target.classList.contains("details-image")) {
             modal.classList.add("show-modal")}
-            
         else if (
-            !event.target.closest(".modal")) {
+            !event.target.closest(".modal"))  {
                 closeModal()
             }
 },
