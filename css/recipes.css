@@ -606,9 +606,9 @@ html {
 /*Mobile Screen*/
 @media(max-width:479px) {
     .modal {
-        height: 28%;
-        width: 88%;
-        top: 15%;
+        height: 35%;
+        width: 94%;
+        top: 25%;
      }
     .recipe-content {
         width: 330px;
