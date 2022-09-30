@@ -433,6 +433,7 @@ html {
     .about-footer  a {
         left: 376px;
         bottom: 40px;
+        flex-shrink: 0;
     }
     .nav-index > ul {
         max-width: 370px;
