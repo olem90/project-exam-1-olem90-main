@@ -675,6 +675,7 @@ html {
         height: 40%;
         width: 94%;
         transform: translateX(-50%);
+        border: 2px solid red;
      }
     .recipe-content {
         width: 300px;
