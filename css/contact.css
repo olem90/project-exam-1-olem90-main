@@ -286,9 +286,7 @@ html {
   .form-group > input {
     padding: 2px;
   }
-  #contact-form {
-    max-width: 300px;
-  }
+  
   .header-container {
     width: 100%;
     margin-inline: auto;
