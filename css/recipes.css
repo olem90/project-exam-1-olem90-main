@@ -185,6 +185,7 @@ html {
     object-fit: cover;
     border-radius: 7px;
     z-index: 99;
+    border: 2px solid red;
  }
  .modal-content >  img {
     width: 100%;
