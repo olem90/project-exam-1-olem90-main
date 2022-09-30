@@ -744,9 +744,5 @@ html {
 }
 @media(max-width:327px) {
     
-    .details-content {
-        width: 250px;
-        border: 1px solid red;
-    }
 
 }
