@@ -175,7 +175,7 @@ html {
  }
  .modal {
     height: 100%;
-    max-height: 600px;
+    height: 500px;
     width: fit-content;
     position: fixed;
     left: 50%;
