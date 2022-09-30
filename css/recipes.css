@@ -185,6 +185,7 @@ html {
     object-fit: cover;
     border-radius: 7px;
     z-index: 99;
+    border: 2px solid red;
  }
  .modal-content >  img {
     width: 100%;
@@ -194,6 +195,7 @@ html {
     border-radius: 0 25px;
     z-index: 99;
     margin-inline: auto;
+    border: 2px solid blue;
  }
  .show-modal {
     display:flex;
