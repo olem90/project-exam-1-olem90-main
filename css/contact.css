@@ -75,8 +75,8 @@ html {
    height: 120px;
    display: flex;
    position: absolute;
-   bottom: 0;
-   top: 120%;
+   left: 0;
+   top: 112%;
    align-items: center;
    box-sizing: border-box;
  }
