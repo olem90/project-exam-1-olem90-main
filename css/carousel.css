@@ -384,6 +384,9 @@ html {
         width: fit-content;
         border: 1px solid red;
     }
+    .nav-index > a {
+        width: fit-content;
+    }
 }
 @media(max-width:580px) {
     #myDiv {
