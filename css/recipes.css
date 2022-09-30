@@ -732,4 +732,7 @@ html {
     .recipe-content {
         width: 230px;
     }
+    .method {
+        max-width: 300px ;
+    }
 }
