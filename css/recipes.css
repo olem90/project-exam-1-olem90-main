@@ -672,10 +672,11 @@ html {
 }
 @media(max-width:436px) {
     .modal {
-        height: 70%;
-        width: 94%;
+        height: 80%;
+        width: 90%;
         transform: translateX(-50%);
         border: 2px solid red;
+        margin: auto;
      }
     .recipe-content {
         width: 300px;
