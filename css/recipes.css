@@ -648,14 +648,6 @@ html {
      }
 }
 @media(max-width:405px) {
-    .modal {
-        height: 40%;
-        width: 94%;
-     }
-     .modal-content >  img {
-        width: 100%;
-        height:100%;
-     }
     .recipe-content {
         width: 260px;
     }
