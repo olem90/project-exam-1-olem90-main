@@ -709,12 +709,7 @@ html {
     .cooking-info > p {
         min-width: 250px;
     }
-    .method {
-        margin: 0;
-    }
-    .ingredients {
-        margin: 0;
-    }
+   
      .header-h1-details > h1{
         font-size: 28px;
      }
