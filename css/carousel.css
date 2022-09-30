@@ -124,6 +124,9 @@ html {
     z-index: 99;
     border: 3px solid rgb(4, 100, 28);
 }
+.nav-index {
+    margin-inline: auto;
+}
 /*Media Queries for index page*/
 @media(max-width:1540px){
     .nextBtn {
@@ -383,9 +386,6 @@ html {
     .nav-index > ul {
         width: fit-content;
         border: 1px solid red;
-    }
-    .nav-index > a {
-        width: fit-content;
     }
 }
 @media(max-width:580px) {
