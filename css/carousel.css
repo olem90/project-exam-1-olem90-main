@@ -521,6 +521,9 @@ html {
     .header-h1 {
         margin-right: 90px;
     }
+    .logo-image {
+        margin-top: 12px;
+    }
     
 }
 @media(max-width:430px) {
