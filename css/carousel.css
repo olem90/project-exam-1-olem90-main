@@ -379,7 +379,7 @@ html {
     .header-h1 {
         margin-right: 80px;
     }
-    .nav-index > ul {
+    .nav-index > ul > a{
         font-size: 20px;
         color: red;
     }
