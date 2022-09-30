@@ -325,6 +325,10 @@ html {
   #contact-form {
     max-width: 225px;
   }
+  .nav > ul {
+    border: 2px solid red;
+    margin-right: 10px;
+  }
   .header-h1 > h1 {
     margin-left: 4px;
     font-size: 26px;
