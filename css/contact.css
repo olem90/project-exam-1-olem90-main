@@ -144,7 +144,6 @@ html {
        .nav-contact > ul {
         width: fit-content;
         gap: 0px;
-        border: 2px solid red;
       }
       .nav-contact > ul > a {
         margin-inline: 10px;
