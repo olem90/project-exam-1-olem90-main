@@ -438,6 +438,9 @@ html {
         border: 2px solid rgb(66, 3, 148);
         width: fit-content;
     }
+    .about-footer {
+        border: 2px solid red;
+    }
     .nav-index > ul {
         max-width: 370px;
         display: flex;
