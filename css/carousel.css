@@ -436,7 +436,7 @@ html {
         flex-shrink: 0;
         flex-wrap: nowrap;
         border: 2px solid rgb(66, 3, 148);
-        width: fit-content;
+        width: 60px;
     }
     .about-footer {
         border: 2px solid red;
