@@ -381,6 +381,7 @@ html {
     }
     .nav-index > ul {
         font-size: 20px;
+        color: red;
     }
    
 }
