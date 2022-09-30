@@ -433,9 +433,6 @@ html {
     .about-footer  a {
         left: 376px;
         bottom: 40px;
-        flex-shrink: 0;
-        flex-wrap: nowrap;
-        border: 2px solid rgb(66, 3, 148);
         width: 70px;
     }
     .nav-index > ul {
