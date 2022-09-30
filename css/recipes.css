@@ -704,15 +704,16 @@ html {
         max-height: 600px;
      }
      .method {
-        margin-right: 56px;
         border: 2px solid red;
+        margin: 0;
     }
     .details-content {
-        border: 2px solid black;
-        margin-right: 20px;
+        border: 2px solid rgb(28, 15, 145);
+        width: 300px;
     }
     .ingredients {
-        margin-right: 56px;
+        border: 2px solid red;
+        margin: 0;
     }
     .recipe-content {
         width: 240px;
