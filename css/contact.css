@@ -286,7 +286,6 @@ html {
   .form-group > input {
     padding: 2px;
   }
-  
   .header-container {
     width: 100%;
     margin-inline: auto;
@@ -322,7 +321,7 @@ html {
 }
 @media(max-width:348px) {
   #contact-form {
-    max-width: 225px;
+    max-width: 220px;
   }
   .nav > ul {
     margin-right: 20px;
