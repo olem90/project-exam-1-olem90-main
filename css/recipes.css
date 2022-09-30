@@ -680,6 +680,12 @@ html {
     }
 }
 @media(max-width:360px) {
+    .modal-content >  img {
+        width: 400px;
+        height:100%;
+        max-height: 600px;
+       
+     }
     .recipe-content {
         width: 240px;
     }
