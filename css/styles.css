@@ -246,18 +246,20 @@ nav > ul > a :hover {
     margin-top: 9px;
     font-weight: bold;
 }
-.about-footer  a, .contact-footer a{ 
+.about-footer > a, .contact-footer > a{ 
     color: #000;
     display: flex; 
     font-weight: bold;
 }
-.contact-footer  a {
+.contact-footer >  a {
     position: absolute;
     right: 250px;
+    bottom: 60px;
 }
-.about-footer  a {
+.about-footer  > a {
     position: absolute;
-    right: 100px;
+    right: 150px;
+    bottom: 60px;
 }
 /*About Page*/
 .page-name-about {
@@ -307,7 +309,6 @@ nav > ul > a :hover {
     box-sizing: border-box;
   }
  
- 
  /*About Page media queries*/
  @media(max-width:870px){
     .about-image > img {
@@ -329,10 +330,6 @@ nav > ul > a :hover {
     }
     .header-h1-about {
         margin-right: 90px;
-    }
-    .about-footer {
-        position: absolute;
-        bottom: 0px;
     }
  }
  @media(max-width:711px) {

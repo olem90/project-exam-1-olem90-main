@@ -109,13 +109,16 @@ html {
     padding-right: 5px;
 } 
 .view-recipe {
-    color: #000;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     text-align: center;
     margin-top: 20px;
 }
-.view-recipe {
-    color: red;
+.view-recipe:hover {
+    background-color: rgb(10, 172, 37, 0.3);
+    width: fit-content;
+    margin-inline: auto;
+    border-radius: 10px;
 }
 .final-post:hover {
     z-index: 99;
@@ -345,7 +348,6 @@ html {
         width: 100%;
     }
     .view-recipe {
-       color: red;
         font-size: 14px;
     }
     .final-post > h4 {
