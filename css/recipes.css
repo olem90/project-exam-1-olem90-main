@@ -707,6 +707,9 @@ html {
         margin-right: 56px;
         border: 2px solid red;
     }
+    .details-content {
+        border: 2px solid black;
+    }
     .ingredients {
         margin-right: 56px;
     }
