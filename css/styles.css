@@ -409,7 +409,7 @@ nav > ul > a :hover {
     .footer-container-about {
         top: 112%;
     }
-    .about-footer-a {
+    .about-footer-a > a {
         width: 70px;
     }
  }
