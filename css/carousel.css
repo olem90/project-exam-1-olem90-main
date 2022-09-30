@@ -376,8 +376,12 @@ html {
     .header-h1 {
         margin-right: 80px;
     }
+    nav {
+        border: 2px solid blue;
+    }
     nav > ul {
         margin-right: 30px;
+        border: 2px solid red;
     }
 }
 @media(max-width:580px) {
