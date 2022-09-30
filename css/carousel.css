@@ -118,8 +118,6 @@ html {
     color: red;
 }
 .final-post:hover {
-    transform: scale(1.05);
-    transition: ease-in-out;
     z-index: 99;
     border: 3px solid rgb(4, 100, 28);
 }

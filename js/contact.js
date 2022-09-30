@@ -12,9 +12,10 @@ const emailCheck = document.querySelector("#email-check")
 const subjectCheck = document.querySelector("#subject-check")
 const messageCheck = document.querySelector("#message-check")
 const validation = document.querySelector(".validation-message");
-
+const formInput = document.querySelector("#contact-form  input");
 function validateForm(event){
     event.preventDefault();
+const footer = document.querySelector(".footer-container-contact");
 
     if(checkLength(name.value, 5) === true){
         nameError.style.display = "none" ,

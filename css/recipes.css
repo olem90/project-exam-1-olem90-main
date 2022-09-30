@@ -12,6 +12,7 @@ html {
 }
 .footer-container-recipes {
     width:100%;
+    position: absolute;
     background-color: rgba(6, 138, 39, 0.5);
     height: 110px;
     display: flex;
@@ -21,11 +22,10 @@ html {
 .contact-footer-recipes > a {
     position: absolute;
     right: 100px;
-    bottom: 0px;
+    bottom: 40px;
     color: #000;
     font-size: 20px;
     font-weight: bold;
-   
 }
 .about-footer-recipes > a {
     position: absolute;
@@ -174,12 +174,12 @@ html {
     margin-top: 10px;
  }
  .modal {
-    max-height: 100%;
+    max-height: 60%;
     width: 55%;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    top: 20%;
+    top: 10%;
     margin: 0 auto;
     display: none;
     object-fit: cover;
@@ -513,7 +513,7 @@ html {
 /*Media Queries for Recipe-details Page*/
 @media(max-width:1200px) {
     .modal {
-        max-height: 100%;
+        max-height: 60%;
         width: 65%;
      }
      .modal-content >  img {
@@ -526,7 +526,7 @@ html {
 }
 @media(max-width:1000px) {
     .modal {
-        max-height: 100%;
+        max-height: 60%;
         width: 70%;
      }
      .modal-content >  img {
@@ -536,8 +536,8 @@ html {
 }
 @media(max-width:900px) {
     .modal {
-        max-height: 100%;
-        width: 78%;
+        max-height: 50%;
+        width:85%;
      }
      .modal-content >  img {
         width: 100%;
@@ -546,13 +546,13 @@ html {
 }
 @media(max-width:800px) {
     .modal {
-        height: 30%;
+        height: 50%;
         width: 85%;
      }
 }
 @media(max-width:700px) {
     .modal {
-        height: 34%;
+        height: 45%;
         width: 88%;
      }
      .recipe-content {
@@ -575,18 +575,14 @@ html {
 }
 @media(max-width:600px) {
     .modal {
-        height: 32%;
-        width: 88%;
+        height: 42%;
+        width: 90%;
      }
     .recipe-content {
         width: 460px;
     }
 }
 @media(max-width:560px) {
-    .modal {
-        height: 30%;
-        width: 88%;
-     }
     .ingredients > ul > li {
         line-height: 23px;
     }
@@ -617,7 +613,6 @@ html {
     .modal {
         height: 35%;
         width: 94%;
-        top: 20%;
      }
      .modal-content >  img {
         width: 100%;
@@ -677,15 +672,8 @@ html {
 }
 @media(max-width:436px) {
     .modal {
-        height: 65%;
-        width: 92%;
-        top: 10%;
-        border: 3px solid red;
-     }
-     .modal-content >  img {
-        width: 100%;
-        height:100%;
-        
+        height: 40%;
+        width: 94%;
      }
     .recipe-content {
         width: 300px;
@@ -711,9 +699,8 @@ html {
 }
 @media(max-width:405px) {
     .modal {
-        height: 22%;
+        height: 40%;
         width: 94%;
-        top: 15%;
      }
      .modal-content >  img {
         width: 100%;
@@ -746,9 +733,8 @@ html {
 }
 @media(max-width:360px) {
     .modal {
-        height: 20%;
+        height: 40%;
         width: 94%;
-        top: 15%;
      }
     .recipe-content {
         width: 240px;
@@ -775,9 +761,8 @@ html {
 }
 @media(max-width:340px) {
     .modal {
-        height: 20%;
+        height: 40%;
         width: 94%;
-        top: 15%;
      }
     .recipe-content {
         width: 230px;
