@@ -672,7 +672,7 @@ html {
 }
 @media(max-width:436px) {
     .modal {
-        height: 90%;
+        height: 100%;
         width: 90%;
         border: 2px solid rgb(10, 20, 160);
      }
