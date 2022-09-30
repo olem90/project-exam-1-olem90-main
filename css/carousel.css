@@ -379,9 +379,8 @@ html {
     nav {
         border: 2px solid blue;
     }
-    nav > ul {
-        margin-right: 30px;
-        border: 2px solid red;
+    .nav-index > ul {
+        width: fit-content;
     }
 }
 @media(max-width:580px) {
