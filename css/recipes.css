@@ -175,7 +175,7 @@ html {
  }
  .modal {
     height: 100%;
-    height: 500px;
+    max-height: 500px;
     width: fit-content;
     position: fixed;
     left: 50%;
@@ -186,7 +186,7 @@ html {
     object-fit: cover;
     border-radius: 7px;
     z-index: 99;
-    border: 2px solid rgb(219, 23, 23);
+    border: 2px solid rgb(157, 189, 15);
  }
  .modal-content >  img {
     max-width: 660px;
