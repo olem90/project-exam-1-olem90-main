@@ -676,6 +676,10 @@ html {
         width: 90%;
         border: 2px solid rgb(10, 20, 160);
      }
+     .modal-content > img {
+        width: 100%;
+        height: 100%;
+     }
     .recipe-content {
         width: 300px;
     }
