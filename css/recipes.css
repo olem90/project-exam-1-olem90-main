@@ -680,10 +680,6 @@ html {
     }
 }
 @media(max-width:360px) {
-    .modal {
-        height: 40%;
-        width: 94%;
-     }
     .recipe-content {
         width: 240px;
     }
