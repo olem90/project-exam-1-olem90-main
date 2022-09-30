@@ -381,7 +381,6 @@ html {
     }
     .nav-index > ul > a{
         font-size: 14px;
-        color: red;
     }
    
 }
@@ -474,6 +473,9 @@ html {
     .social-media > p{
         font-size: 14px;
         margin-left: 12px;
+    }
+    .nav-index > ul {
+        gap: 2px;
     }
 }
 /*Mobile Screen*/
