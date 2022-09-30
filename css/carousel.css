@@ -376,6 +376,9 @@ html {
     .header-h1 {
         margin-right: 80px;
     }
+    nav > ul {
+        margin-right: 20px;
+    }
 }
 @media(max-width:580px) {
     #myDiv {
