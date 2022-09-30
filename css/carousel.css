@@ -376,7 +376,7 @@ html {
     .header-h1 {
         margin-right: 80px;
     }
-    nav {
+    .nav-index {
         border: 2px solid blue;
         width: fit-content;
     }
