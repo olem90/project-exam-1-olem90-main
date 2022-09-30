@@ -693,6 +693,9 @@ html {
     .ingredients > ul {
         margin-left: 0;
     }
+    .method > ul {
+        margin-left: 0;
+    }
 }
 @media(max-width:360px) {
     .modal-content >  img {
@@ -701,10 +704,10 @@ html {
         max-height: 600px;
      }
      .method {
-        margin-right: 40px;
+        margin-right: 50px;
     }
     .ingredients {
-        margin-right: 40px;
+        margin-right: 50px;
     }
     .recipe-content {
         width: 240px;
