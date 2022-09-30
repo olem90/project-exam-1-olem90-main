@@ -379,14 +379,7 @@ html {
     .header-h1 {
         margin-right: 80px;
     }
-    .nav-index {
-        border: 2px solid blue;
-        width: fit-content;
-    }
-    .nav-index > ul {
-        width: fit-content;
-        border: 1px solid red;
-    }
+   
 }
 @media(max-width:580px) {
     #myDiv {
