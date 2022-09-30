@@ -475,7 +475,7 @@ html {
         margin-left: 12px;
     }
     .nav-index > ul {
-        gap: 2px;
+        gap: 0;
     }
 }
 /*Mobile Screen*/
