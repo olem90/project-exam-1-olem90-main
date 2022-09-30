@@ -676,12 +676,12 @@ html {
         margin-right: 8px;
     }
     .method {
-        width: 320px;
+        max-width: 320px;
         margin-left: 10px;
         margin-right: 0;
     }
     .ingredients {
-        margin-left: 10px;
+        max-width: 320px ;
     }
     .ingredients > ul {
         margin-left: 0;
