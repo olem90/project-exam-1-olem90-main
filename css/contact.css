@@ -24,7 +24,7 @@ html {
     height:500px;
     margin-top: 30px;
     position: relative;
-    z-index: 99;
+    z-index: 59;
 }
 .form-group {
     display: flex;
