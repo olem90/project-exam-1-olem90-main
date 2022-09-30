@@ -378,6 +378,7 @@ html {
     }
     nav {
         border: 2px solid blue;
+        width: fit-content;
     }
     .nav-index > ul {
         width: fit-content;
