@@ -673,8 +673,8 @@ html {
 @media(max-width:436px) {
     .modal {
         height: 100%;
-        width: 300px;
-        border: 2px solid rgb(70, 25, 143);
+        width: fit-content;
+        border: 2px solid rgb(58, 212, 38);
      }
      .modal-content > img {
         width: 100%;
