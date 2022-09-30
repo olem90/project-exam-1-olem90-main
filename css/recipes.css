@@ -674,6 +674,7 @@ html {
     .modal {
         height: 40%;
         width: 94%;
+        transform: translateX(-50%);
      }
     .recipe-content {
         width: 300px;
