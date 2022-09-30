@@ -406,7 +406,7 @@ nav > ul > a :hover {
     .nav-about > ul {
         width: fit-content;
     }
-    .about-footer {
+    .footer-container-about {
         top: 120%;
     }
  }
