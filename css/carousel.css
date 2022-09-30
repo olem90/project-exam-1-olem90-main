@@ -435,7 +435,7 @@ html {
         bottom: 40px;
         flex-shrink: 0;
         flex-wrap: nowrap;
-        border: 2px solid red;
+        border: 2px solid rgb(66, 3, 148);
         width: fit-content;
     }
     .nav-index > ul {
