@@ -174,8 +174,8 @@ html {
     margin-top: 10px;
  }
  .modal {
-    max-height: 60%;
-    width: 55%;
+    max-height: 100%;
+    width: fit-content;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -611,8 +611,8 @@ html {
 /*Mobile Screen*/
 @media(max-width:479px) {
     .modal {
-        height: 35%;
-        width: 94%;
+        height: 100%;
+        width: fit-content;
      }
      .modal-content >  img {
         width: 100%;
@@ -674,7 +674,6 @@ html {
     .modal {
         height: 100%;
         width: fit-content;
-        border: 2px solid rgb(58, 212, 38);
      }
      .modal-content > img {
         width: 100%;
