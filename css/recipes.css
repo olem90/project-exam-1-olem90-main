@@ -709,6 +709,7 @@ html {
     }
     .details-content {
         border: 2px solid black;
+        margin-right: 20px;
     }
     .ingredients {
         margin-right: 56px;
@@ -740,6 +741,6 @@ html {
         width: 230px;
     }
     .method {
-        max-width: 300px ;
+        max-width: 100% ;
     }
 }
