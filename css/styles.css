@@ -411,6 +411,7 @@ nav > ul > a :hover {
     }
     .about-footer-a > a {
         width: 70px;
+        border: 2px solid red;
     }
  }
  /*Mobile Screen*/
