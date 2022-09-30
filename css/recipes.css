@@ -672,16 +672,9 @@ html {
 }
 @media(max-width:436px) {
     .modal {
-        display: flex;
         height: 80%;
         width: 90%;
         border: 2px solid rgb(10, 20, 160);
-        margin: auto;
-     }
-     .modal-content > img {
-        display: flex;
-        align-self: center;
-        justify-self: center;
      }
     .recipe-content {
         width: 300px;
