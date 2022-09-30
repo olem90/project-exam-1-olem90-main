@@ -406,6 +406,9 @@ nav > ul > a :hover {
     .nav-about > ul {
         width: fit-content;
     }
+    .about-footer {
+        top: 120%;
+    }
  }
  /*Mobile Screen*/
  @media(max-width:479px) {
