@@ -434,7 +434,9 @@ html {
         left: 376px;
         bottom: 40px;
         flex-shrink: 0;
+        flex-wrap: nowrap;
         border: 2px solid red;
+        width: fit-content;
     }
     .nav-index > ul {
         max-width: 370px;
