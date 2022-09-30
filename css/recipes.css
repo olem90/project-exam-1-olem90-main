@@ -657,7 +657,7 @@ html {
     }
     .logo-image-details {
         margin-left: -80px;
-        margin-top: 26px;
+        margin-top: 30px;
         width: 90px;
      }
      .header-h1-details > h1 {
@@ -742,7 +742,4 @@ html {
         max-width: 100% ;
     }
 }
-@media(max-width:327px) {
-    
 
-}
