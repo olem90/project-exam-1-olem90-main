@@ -742,3 +742,12 @@ html {
         max-width: 100% ;
     }
 }
+@media(max-width:327px) {
+    .method{
+
+    }
+    .details-content {
+        width: 250px;
+    }
+
+}
