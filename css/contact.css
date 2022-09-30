@@ -313,7 +313,7 @@ html {
 }
 @media(max-width:379px) {
   #contact-form {
-    max-width: 256px;
+    max-width: 250px;
   }
   .header-h1 > a {
     left: 18px;
