@@ -322,12 +322,11 @@ html {
     margin-right: -50px;
   }
 }
-@media(max-width:345px) {
+@media(max-width:348px) {
   #contact-form {
     max-width: 225px;
   }
   .nav > ul {
-    border: 2px solid red;
     margin-right: 20px;
   }
   .header-h1 > h1 {
