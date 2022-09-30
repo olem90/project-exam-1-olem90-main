@@ -436,10 +436,7 @@ html {
         flex-shrink: 0;
         flex-wrap: nowrap;
         border: 2px solid rgb(66, 3, 148);
-        width: 60px;
-    }
-    .about-footer {
-        border: 2px solid red;
+        width: 70px;
     }
     .nav-index > ul {
         max-width: 370px;
