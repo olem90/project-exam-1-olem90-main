@@ -140,10 +140,11 @@ html {
       margin-right: 120px;
     }
  }
- @media(max-width:633px){
+ @media(max-width:639px){
        .nav-contact > ul {
         width: fit-content;
         gap: 0px;
+        border: 2px solid red;
       }
       .nav-contact > ul > a {
         margin-inline: 10px;
