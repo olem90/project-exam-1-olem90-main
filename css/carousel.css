@@ -382,6 +382,7 @@ html {
     }
     .nav-index > ul {
         width: fit-content;
+        border: 1px solid red;
     }
 }
 @media(max-width:580px) {
