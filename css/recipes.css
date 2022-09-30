@@ -743,11 +743,10 @@ html {
     }
 }
 @media(max-width:327px) {
-    .method{
-
-    }
+    
     .details-content {
         width: 250px;
+        border: 1px solid red;
     }
 
 }
