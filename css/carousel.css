@@ -994,7 +994,7 @@ html {
 }
 @media(max-width:450px) {
     #each-post {
-        margin-left: 260px;
+        margin-left: 280px;
     }
 }
 @media(max-width:440px) {
