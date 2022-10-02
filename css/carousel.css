@@ -246,7 +246,7 @@ html {
         margin-top: 40px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left: 14px;
+        margin-left: 10px;
     }
     .each-post > div > img {
         width: 130px;
@@ -271,13 +271,15 @@ html {
         margin-inline: auto;
         width:100%;
         height: 100%;
-        margin-left: 362px;
+        margin-left: 360px;
     }
     .carousel {
         display: flex;
         justify-content: center;
         width: 75%;
         margin-top: 50px;
+        overflow: visible;
+        border: 2px solid red;
     }
     .index-footer {
         position: absolute;
