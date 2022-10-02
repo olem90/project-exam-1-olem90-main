@@ -425,7 +425,7 @@ html {
 }
 @media(max-width:740px) {
     #each-post {
-        margin-left: 330px;
+        margin-left: 340px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: 68px;
