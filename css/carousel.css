@@ -665,6 +665,14 @@ html {
     .each-post > div {
         margin-inline: 5px;
     }
+    .nextBtn {
+        right: 5%;
+        top: 405px;
+    }
+    .prevBtn {
+        left: 2%;
+        top: 405px;
+    }
 
 }
 @media(max-width:580px) {
