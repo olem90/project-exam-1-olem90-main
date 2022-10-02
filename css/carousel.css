@@ -376,7 +376,7 @@ html {
 @media(max-width:777px) {
     .nextBtn {
         right: 6%;
-        top:480px;
+        top:450px;
     }
     .prevBtn {
         left: 6%;
