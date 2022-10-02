@@ -5,6 +5,7 @@ body {
     height: 100%;
     display: flex;
     position: relative;
+    font-family:  'Playfair Display', 'Courier New', 'monospace';;
 }
 html {
     scroll-behavior: smooth;
