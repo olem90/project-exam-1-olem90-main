@@ -999,7 +999,7 @@ html {
 }
 @media(max-width:440px) {
     #each-post {
-        margin-left: 250px;
+        margin-left: 260px;
     }
     .header-h1 {
         margin-right: 90px;
