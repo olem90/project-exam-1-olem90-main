@@ -156,6 +156,7 @@ html {
     border-radius: 20px 0;
     margin-bottom: 50px;
     font-family: 'playfair display';
+    font-weight: bold;
  }
  .details-image {
     max-width: 500px;
