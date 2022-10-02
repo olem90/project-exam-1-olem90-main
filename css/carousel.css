@@ -432,6 +432,15 @@ html {
     }
 
 }
+@media(max-width:726px) {
+    #each-post {
+        margin-left: 332px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 42px;
+    }
+
+}
 @media(max-width:716px) {
     #each-post {
         margin-left: 310px;
