@@ -59,6 +59,7 @@ html {
     width: 250px;
     height: fit-content;
     margin-block-end: 60px;
+    font-family: 'Playfair Display', 'Courier New', 'monospace';
 }
 .single-recipe {
     width: 250px;
