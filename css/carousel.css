@@ -1102,5 +1102,8 @@ html {
         margin-left: -17px;
         margin-inline: 5px;
     }
+    #each-post {
+        margin-left: 170px;
+    }
    
 }
