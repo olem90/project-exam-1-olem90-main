@@ -926,6 +926,7 @@ html {
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left:0px;
+        margin-inline: 6px;
     }
     #each-post {
         margin-left: 295px;
