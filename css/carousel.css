@@ -633,7 +633,7 @@ html {
         height: 280px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left:86px;
+        margin-left:78px;
     }
     .each-post > div {
         height: 76%;
