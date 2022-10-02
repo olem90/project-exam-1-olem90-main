@@ -576,10 +576,10 @@ html {
 }
 @media(max-width:637px) {
     #each-post {
-        margin-left: 325px;
+        margin-left: 322px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left:74px;
+        margin-left:64px;
     }
     .each-post > div > img {
         width:86px;
