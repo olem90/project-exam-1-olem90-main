@@ -892,14 +892,6 @@ html {
 }
 @media(max-width:489px) {
     #each-post {
-        margin-left: 240px;
-    }
-    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left: 26px;
-    }
-}
-@media(max-width:489px) {
-    #each-post {
         margin-left: 227px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
