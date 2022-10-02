@@ -862,7 +862,7 @@ html {
         gap: 0;
     }
     #each-post {
-        margin-left: 235px;
+        margin-left: 230px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: 32px;
