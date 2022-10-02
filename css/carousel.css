@@ -1050,9 +1050,7 @@ html {
     }
 }
 @media(max-width:372px) {
-    #each-post {
-        margin-left: 215px;
-    }
+    
 }
 @media(max-width:366px) {
     .final-post > h4 {
