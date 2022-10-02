@@ -1036,11 +1036,6 @@ html {
         margin-left: 226px;
     }
 }
-@media(max-width:400px) {
-    .each-post > div {
-        
-    }
-}
 @media(max-width:390px) {
     .header-name {
         font-size: 30px;
