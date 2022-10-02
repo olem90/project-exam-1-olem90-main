@@ -897,6 +897,10 @@ html {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: 16px;
     }
+    .carousel {
+        width: 84%;
+        border: 2px solid red;
+    }
 }
 @media(max-width:485px) {
     #each-post {
