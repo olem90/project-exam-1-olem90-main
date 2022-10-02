@@ -437,10 +437,11 @@ html {
     }
     .nextBtn {
         right: 3%;
+        top: 440px;
     }
     .prevBtn {
         left: 3%;
-
+        top: 440px;
     }
 }
 @media(max-width:694px) {
