@@ -1010,7 +1010,7 @@ html {
 }
 @media(max-width:430px) {
     #each-post {
-        margin-left: 262px;
+        margin-left: 275px;
     }
     .each-post > div {
         border: 2px solid red;
