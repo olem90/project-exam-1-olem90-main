@@ -45,6 +45,7 @@ html {
 .final-post {
     display: grid;
     grid-column: 1fr 1fr;
+    font-family: 'playfair Display';
 }
 .post-container > img {
     width: 270px;
