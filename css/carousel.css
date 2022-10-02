@@ -820,7 +820,7 @@ html {
 }
 @media(max-width:507px) {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left: 26px;
+        margin-left: 23px;
     }
     .each-post > div {
         height: 70%;
