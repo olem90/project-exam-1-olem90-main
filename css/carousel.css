@@ -461,14 +461,14 @@ html {
 }
 @media(max-width:694px) {
     #each-post {
-        margin-left: 320px;
+        margin-left: 335px;
 
     }
     .carousel{
         width: 80%;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left: 66px;
+        margin-left:71px;
     }
 
 }
