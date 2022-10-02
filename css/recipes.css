@@ -9,6 +9,7 @@ body {
 html {
     scroll-behavior: smooth;
     position: relative;
+    font-family: 'playfair display';
 }
 .footer-container-recipes {
     width:100%;
