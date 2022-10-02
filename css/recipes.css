@@ -5,6 +5,7 @@ body {
     height: 100%;
     display: flex;
     position: relative;
+    font-family: 'PT serif', 'Playfair Display', 'Courier New';
 }
 html {
     scroll-behavior: smooth;
@@ -53,7 +54,7 @@ html {
     margin-inline:auto;
     margin-top: 60px;
     width: 90%;
-   justify-items: center;
+    justify-items: center;
 }
 .click-post {
     width: 250px;
@@ -427,7 +428,7 @@ html {
         width: 92px;
     }
     .nav-recipes > ul > a > li {
-            padding: 12px;
+        padding: 12px;
     }
 }
 /*Mobile screen*/

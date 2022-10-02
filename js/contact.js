@@ -13,35 +13,29 @@ const subjectCheck = document.querySelector("#subject-check")
 const messageCheck = document.querySelector("#message-check")
 const validation = document.querySelector(".validation-message");
 const formInput = document.querySelector("#contact-form  input");
+
 function validateForm(event){
     event.preventDefault();
-const footer = document.querySelector(".footer-container-contact");
 
     if(checkLength(name.value, 5) === true){
         nameError.style.display = "none" ,
         nameCheck.style.display = "block";
-        
     }
     else{
         nameError.style.display = "block";
         nameCheck.style.display = "none";
     }
-
     if(validateEmail(email.value) === true){
         emailError.style.display = "none";
         emailCheck.style.display = "block";
-        
     }
     else{
         emailError.style.display = "block";
         emailCheck.style.display = "none";
-        
     }
-
     if(checkLength(subject.value, 14) === true){
         subjectError.style.display = "none";
         subjectCheck.style.display = "block";
-
     }
     else{
         subjectError.style.display = "block";
@@ -55,7 +49,6 @@ const footer = document.querySelector(".footer-container-contact");
         contactMessageError.style.display = "block";
         messageCheck.style.display = "none";
     }
-    
     if(checkLength(name.value, 0) === true && validateEmail(email.value) === true && checkLength(contactMessage.value, 14) === true){
         validation.style.display = "block";
     } 

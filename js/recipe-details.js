@@ -36,27 +36,21 @@ function createHTML(details){
     const doc3 = parser3.parseFromString(content3.rendered, "text/html");
     const h4 = doc3.querySelector("h4");
     
-
-
-  
-
-
 recipeDetailsContainer.innerHTML = 
     `<div class="recipe-content"> 
-    <h3>${details.title.rendered}</h3>
-    <img class= "details-image" src="${details._embedded["wp:featuredmedia"][0].source_url}">
-
-    <p class="caption-info">${paragraph.innerHTML}</p>
-    
-   <div class="cooking-info">${paragraph.nextSibling.nextSibling.innerHTML} </div>
-
-    <div class="details-content">
-    <div class="ingredients"><h4>${h3.innerHTML}</h4>
-    <ul>${ul[0].innerHTML}</ul>
-    </div>
-    <div class="method"><h4>${h4.textContent}</h4>
-    <ul>${ul[1].innerHTML}</ul></div>
-    </div>
+        <h3>${details.title.rendered}</h3>
+        <img class= "details-image" src="${details._embedded["wp:featuredmedia"][0].source_url}">
+        <p class="caption-info">${paragraph.innerHTML}</p>
+        <div class="cooking-info">${paragraph.nextSibling.nextSibling.innerHTML} </div>
+        <div class="details-content">
+            <div class="ingredients">
+                <h4>${h3.innerHTML}</h4>
+                <ul>${ul[0].innerHTML}</ul>
+            </div>
+            <div class="method"><h4>${h4.textContent}</h4>
+                <ul>${ul[1].innerHTML}</ul>
+            </div>
+        </div>
     </div>`;
 
     modal.innerHTML = `
@@ -72,9 +66,8 @@ recipeDetailsContainer.innerHTML =
         else if (
             !event.target.closest(".modal"))  {
                 closeModal()
-            }
-},
-);
+            }},
+)
  };
  
 function closeModal() {

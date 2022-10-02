@@ -1,8 +1,8 @@
-const carouselSlide = document.querySelector(".test-carousel-slide");
+const carouselSlide = document.querySelector(".carousel-slide");
 const carouselImages = document.querySelectorAll(".each-post");
 const postsUrl = "https://gamehub.olemariusrognan.com/wp-json/wp/v2/posts/" + "?per_page=14&_embed";
 const myPostContainer = document.querySelector(".each-post");
-const carouselFrame = document.querySelector(".test-carousel");
+const carouselFrame = document.querySelector(".carousel");
 
 async function fetchPosts(url){
     const response = await fetch(url);
@@ -11,11 +11,13 @@ async function fetchPosts(url){
 
     posts.forEach(function(post){
 
-        myPostContainer.innerHTML += `<div class="final-post">
+        myPostContainer.innerHTML += 
+        `<div class="final-post">
             <h4>${post.title.rendered}</h4>
-            <img class="test-image" src="${post._embedded['wp:featuredmedia']['0'].source_url}" alt="">
-            <a class="view-recipe" href="recipe-details.html?id=${post.id}" >View Recipe</a>
-            </div>`;
+            <img class="carousel-image" src="${post._embedded['wp:featuredmedia']['0'].source_url}" alt="">
+            <a class="view-recipe" href="recipe-details.html?id=${post.id}" >View Recipe
+            </a>
+        </div>`;
 
 // buttons
 const prevBtn = document.querySelector(".prevBtn");
@@ -23,7 +25,7 @@ const nextBtn = document.querySelector(".nextBtn");
 
 // counter
 let counter = 1;
-const size = carouselFrame.clientWidth + 1;
+const size = carouselFrame.clientWidth ;
 
 //Hide and show arrows
 if(counter <= 1){
@@ -67,7 +69,6 @@ prevBtn.addEventListener('click',()=>{
         nextBtn.classList.remove("hide-btn");
     };
     console.log(counter);
-    
 });
 })
 }

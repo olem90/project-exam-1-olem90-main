@@ -2,7 +2,7 @@ body{
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-family: 'PT serif';
+    font-family: 'PT serif', 'Playfair Display', 'Courier New';
     background-color: beige;
     display: flex;
     flex-direction: column;
@@ -80,7 +80,6 @@ nav > ul {
     margin-top: 40px;
     width:fit-content;
     margin-inline: auto;
-     
 }
 nav > ul > a {
     text-decoration: none;

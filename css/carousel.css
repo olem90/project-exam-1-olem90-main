@@ -6,12 +6,13 @@ body{
     box-sizing: border-box;
     min-height: 100%;
     display: flex;
+    font-family: 'PT serif', 'Playfair Display', 'Courier New';
 }
 html {
     height: 100%;
     position: relative;
 }
-.test-carousel {
+.carousel {
     width: 898px;
     height: 360px;
     display: flex;
@@ -30,7 +31,7 @@ html {
     flex-direction: column;
     margin-inline: 9.3px;
 }
-.test-carousel-slide {
+.carousel-slide {
     display: flex;
     height: 300px;
     margin-left: 898px;
@@ -45,22 +46,22 @@ html {
     display: grid;
     grid-column: 1fr 1fr;
 }
-.test-post-container > img {
+.post-container > img {
     width: 270px;
     object-fit: cover;
     height: 200px;
 }
-.test-post-container > h4 {
+.post-container > h4 {
     text-align: center;
     text-transform: uppercase;
 }
-.test-post-container {
+.post-container {
     display: flex;
     flex-direction: column;
     width: 400px;
     height: 300px;
 }
-.test-image {
+.carousel-image {
     box-sizing: border-box;
     padding: 10px;
     height: 200px;
@@ -137,6 +138,9 @@ html {
     left: 15%;
     top: 500px;
     }
+    .carousel {
+        overflow: hidden;
+    }
 }
 @media(max-width:1406px){
     .nextBtn {
@@ -164,7 +168,7 @@ html {
         right: 3%;
         top: 500px;
     }
-        .prevBtn {
+    .prevBtn {
         left: 3%;
         top: 500px;
     }
@@ -186,14 +190,14 @@ html {
         height: 90%;
         margin-inline: 9px;
     }
-    .test-carousel {
+    .carousel {
         width: 710px;
     }
-    .test-carousel-slide {
+    .carousel-slide {
         margin-left: 663px;
         max-width: 203px;
     }
-    .test-post-container {
+    .post-container {
         margin-inline: 36px;
         padding-inline: 20px;
     }
@@ -206,6 +210,14 @@ html {
     .prevBtn {
         left: 4%;
         top: 500px;
+    }
+    .final-post > h4 {
+        margin-top: 10px;
+    }
+    .each-post > div > img {
+        margin-top: 0;
+        padding: 0;
+        padding-inline: 4px;
     }
 }
 @media(max-width:868px) {
@@ -220,107 +232,205 @@ html {
 }
 @media(max-width:832px) {
     .nextBtn {
-        display: none;
+        right: 4%;
+        top: 500px;
     }
     .prevBtn {
-        display: none;
+        left: 4%;
+        top: 500px;
     }
     .each-post > div {
-        width: 240px;
-        height: 90%;
+        width: 156px;
+        height: 86%;
         margin-inline: 9px;
+        margin-top: 40px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 14px;
     }
     .each-post > div > img {
-        width: 230px;
-        margin-inline: auto;
+        width: 130px;
+        height: 120px;
     }
-    .test-carousel-slide {
+    .final-post > h4 {
+        font-size: 14px;
+    }
+    .view-recipe {
+        font-size: 12px;
+    }
+    .carousel-slide {
         margin-left: 0px;
         padding-inline: 32px;
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 100%;
+        border: 2px solid green;
     }
-    #myDiv {
+    #each-post {
         margin-inline: auto;
         width:100%;
         height: 100%;
-       margin-left: 520px;
+        margin-left: 362px;
     }
-    .test-carousel {
-        overflow: visible;
+    .carousel {
         display: flex;
         justify-content: center;
-        width: 90%;
+        width: 75%;
         margin-top: 50px;
     }
-    .each-post {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
     .index-footer {
-    position: absolute;
-    top: 230%;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    width: 100%;
-    height: 150px;
+        position: absolute;
+        top: 230%;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        width: 100%;
+        height: 150px;
     }
     .header-container {
         width:500px;
         margin-inline: auto;
     }
    .header-h1 {
-    margin-inline: auto;
+        margin-inline: auto;
    }
-   .test-post-container {
-    width: 500px;
+   .post-container {
+        width: 500px;
    }
    .nav-index > ul > li > a {
-    margin-inline: auto;
+        margin-inline: auto;
    }
 }
-@media(max-width:775px) {
-    .test-carousel-slide {
-        margin-left: 0px ;
-        width: 100%;
-        height: 100%;
+@media(max-width:822px){
+    #each-post {
+        margin-left: 354px;
     }
-    #myDiv {
-        margin-left: 498px;
-        width: 100%;
-        height: 100%;
-    }
-    .test-post-container {
-        width: 2px;
+
+}
+@media(max-width:809px) {
+    .carousel {
+        width: 72%;
+        height: 300px;
     }
     .each-post > div {
-        width: 200px;
+        width: 120px;
+        height: 72%;
     }
     .each-post > div > img {
-        width: 190px;
+        width: 110px;
+        height: 90px;
+        padding-inline: 4px;
+        margin-top: 0;
+        margin-bottom: 6px;
     }
-    .test-carousel {
-        width:90%;
+    #each-post {
+        margin-left: 357px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 46px;
+    }
+    .nextBtn {
+        right: 6%;
+        top:460px;
+    }
+    .prevBtn {
+        left: 6%;
+        top:460px;
+    }
+    .view-recipe {
+        margin-top: 0;
+    }
+    .final-post > h4 {
+        font-size: 13px;
+        margin-top: 10px;
     }
 }
-@media(max-width:728px) {
-    #myDiv {
-        margin-left: 475px;
-        width: 100%;
-        height: 100%;
+@media(max-width:775px) {
+    .nextBtn {
+        right: 6%;
+        top:480px;
+    }
+    .prevBtn {
+        left: 6%;
+        top:480px;
+    }
+    .carousel {
+        width:75%;
+    }
+    #each-post {
+        margin-left: 352px;
+        height: 80%;
+    }
+    .each-post > div {
+        width: 120px;
+        height: 80%;
+    }
+    .each-post > div > img {
+        width: 100px;
+        height: 90px;
+        padding-inline: 4px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 88px;
+    }
+    .final-post > h4 {
+        font-size: 13px;
+        line-height: 15px;
+        margin-top: 12px ;
+        margin-bottom: 0;
+    }
+    .view-recipe {
+       margin-top: 0;
+    } 
+    .each-post > div > img {
+        margin: 0;
     }
 }
-@media(max-width:700px) {
-    #myDiv {
-        margin-left: 430px;
-        width: 100%;
-        height: 100%;
+@media(max-width:740px) {
+    #each-post {
+        margin-left: 330px;
     }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 68px;
+    }
+
+}
+@media(max-width:716px) {
+    #each-post {
+        margin-left: 310px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 45px;
+    }
+
+}
+@media(max-width:690px) {
+    #each-post {
+        margin-left: 320px;
+
+    }
+    .carousel{
+        width: 80%;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 66px;
+    }
+
+}
+@media(max-width:678px) {
+    #each-post {
+        margin-left: 310px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 60px;
+    }
+
 }
 @media(max-width:661px) {
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 46px;
+    }
     .logo-image  {
         width: 110px;
         margin-top: 14px;
@@ -347,34 +457,80 @@ html {
     .home-header {
         font-size: 16px;
     }
-    .each-post > div > img {
-        width: 100%;
+    .final-post > h4 {
+        font-size: 13px;
+        line-height: 15px;
+        margin-top: 12px ;
+        margin-bottom: 0;
+    }
+    #each-post {
+        margin-left: 304px;
+        height: 80%;
     }
     .view-recipe {
-        font-size: 14px;
+        margin-top: 0;
+    } 
+    .each-post > div > img {
+        margin: 0;
     }
-    .final-post > h4 {
-        font-size: 14px;
+    .carousel {
+        width:80%;
     }
-    #myDiv {
-        margin-left: 426px;
+}
+@media(max-width:648px) {
+    #each-post {
+        margin-left: 298px;
     }
-    .test-post-container {
-        width: 100%;
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left:34px;
     }
-    .each-post > div {
-        width: 170px;
+
+}
+@media(max-width:637px) {
+    #each-post {
+        margin-left: 296px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left:74px;
     }
     .each-post > div > img {
-        width: 100%;
+        width:86px;
+        height: 70px;
     }
-    .test-carousel {
-        width:90%;
+    .each-post > div {
+        height: 74%;
+    }
+}
+@media(max-width:629px) {
+    #each-post {
+        margin-left: 290px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left:75px;
+    } 
+   
+}
+@media(max-width:621px) {
+    #each-post {
+        margin-left: 310px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left:52px;
+    } 
+    .each-post > div {
+        height: 70%;
+    }
+    .each-post > div > img {
+        width: 90px;
+        height: 70px;
+    }
+    .final-post > h4 {
+        font-size: 12px;
     }
 }
 @media(max-width:611px) {
-    #myDiv {
-        margin-left: 396px;
+    #each-post {
+        margin-left: 350px;
     }
     .header-h1 {
         margin-right: 80px;
@@ -382,18 +538,89 @@ html {
     .nav-index > ul > a{
         font-size: 14px;
     }
-   
+    .each-post > div > img {
+        margin-bottom: 10px;
+    }
+    .carousel {
+        width: 88%;
+        height: 280px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left:86px;
+    }
+    .each-post > div {
+        height: 76%;
+    }
+}
+@media(max-width:602px) {
+    #each-post {
+        margin-left: 350px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left:80px;
+    }
+
+}
+@media(max-width:590px) {
+    #each-post {
+        margin-left: 334px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left:72px;
+    }
+
 }
 @media(max-width:580px) {
-    #myDiv {
-        margin-left: 362px;
-    }
     .nav-index > ul {
         width: fit-content;
     }
     .nav-index > ul > a {
         margin-inline: 14px;
     }
+    .each-post > div {
+        width: 88px;
+        height: 76%;
+    }
+    .each-post > div > img {
+        width: 84px;
+        height: 60px;
+    }
+    #each-post {
+        margin-left: 268px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left:16px;
+    }
+    .carousel {
+        width: 76%;
+    }
+}
+@media(max-width:570px) {
+    #each-post {
+        margin-left: 276px;
+    }
+    .each-post > div > img {
+        height: 50px;
+        width: 75px;
+    }
+    .each-post > div {
+        height: 72%;
+    }
+    .final-post > h4 {
+        font-size: 11px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left:50px;
+    } 
+}
+@media(max-width:564px) {
+    #each-post {
+        margin-left: 274px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left:41px;
+    }
+
 }
 @media(max-width:552px) {
     .nav-index > ul > a {
@@ -410,27 +637,51 @@ html {
         margin-top: 8px;
     }
     .final-post > h4 {
-        font-size: 14px;
+        margin-bottom: 5px;
         font-weight: normal; 
     }
-    #myDiv {
-        margin-left: 340px;
-        width: 100%;
-        height: 100%;
+    .view-recipe {
+        font-size: 11px;
     }
-    .test-post-container {
+    .post-container {
         width: 2px;
     }
-    .each-post > div {
-        width: 160px;
+    .carousel {
+        width:76%;
     }
-    .each-post > div > img {
-        width:100%;
+    #each-post {
+        margin-left: 263px;
     }
-    .test-carousel {
-        width:90%;
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 28px;
     }
 }
+@media(max-width:540px)  {
+    #each-post {
+        margin-left: 256px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 23px;
+    }
+}
+@media(max-width:534px)  {
+    #each-post {
+        margin-left: 250px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 20px;
+    }
+} 
+@media(max-width:529px)  {
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 12px;
+    }
+}  
+@media(max-width:523px)  {
+    #each-post {
+        margin-left: 236px;
+    }
+}  
 @media(max-width:516px) {
     .contact-footer  a {
         left: 376px;
@@ -449,14 +700,40 @@ html {
     .nav-index > ul > a {
        padding: 0;
     }
-    #myDiv {
-        margin-left: 320px;
+    .each-post > div > img {
+        width: 70px;
+        height: 50px;
+    }
+    #each-post {
+        margin-left: 258px;
+    }
+    .each-post > div {
+        margin-inline: 6px;
+        height: 74%;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 45px;
+    }
+    .final-post > h4 {
+        font-size: 10px;
+        margin-top: 8px;
+    }
+    .view-recipe {
+        font-size: 8px;
+    }
+}
+@media(max-width:505px) {
+    #each-post {
+        margin-left: 248px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 35px;
+    }
+    .each-post > div {
+        height: 70%;
     }
 }
 @media(max-width:496px) {
-    #myDiv {
-        margin-left: 300px;
-    }
     .header-h1 {
         margin-right: 60px;
     }
@@ -477,10 +754,39 @@ html {
     .nav-index > ul {
         gap: 0;
     }
+    #each-post {
+        margin-left: 242px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 32px;
+    }
+}
+@media(max-width:489px) {
+    #each-post {
+        margin-left: 240px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 26px;
+    }
+}
+@media(max-width:489px) {
+    #each-post {
+        margin-left: 234px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 22px;
+    }
 }
 /*Mobile Screen*/
 @media(max-width:479px){
-    #myDiv {
+    .each-post {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left:6px;
+    }
+    #each-post {
         margin-left: 290px;
     }
     .nav-index > ul {
@@ -514,17 +820,17 @@ html {
     .social-media {
         margin-inline: auto;
     }
-    #myDiv {
+    #each-post {
         margin-left: 280px;
     }
 }
 @media(max-width:450px) {
-    #myDiv {
+    #each-post {
         margin-left: 260px;
     }
 }
 @media(max-width:440px) {
-    #myDiv {
+    #each-post {
         margin-left: 250px;
     }
     .header-h1 {
@@ -536,12 +842,12 @@ html {
     
 }
 @media(max-width:430px) {
-    #myDiv {
+    #each-post {
         margin-left: 242px;
     }
 }
 @media(max-width:420px) {
-    #myDiv {
+    #each-post {
         margin-left: 234px;
     }
     .header-h1 {
@@ -549,12 +855,12 @@ html {
     }
 }
 @media(max-width:410px) {
-    #myDiv {
+    #each-post {
         margin-left: 226px;
     }
 }
 @media(max-width:400px) {
-    #myDiv {
+    #each-post {
         margin-left: 238px;
     }
     .each-post > div {
@@ -567,7 +873,7 @@ html {
     }
 }
 @media(max-width:390px) {
-    #myDiv {
+    #each-post {
         margin-left: 225px;
     }
     .header-name {
@@ -583,12 +889,12 @@ html {
     }
 }
 @media(max-width:372px) {
-    #myDiv {
+    #each-post {
         margin-left: 215px;
     }
 }
 @media(max-width:366px) {
-    #myDiv {
+    #each-post {
         margin-left: 222px;
     }
     .final-post > h4 {
@@ -604,22 +910,22 @@ html {
     }
 }
 @media(max-width:358px) {
-    #myDiv {
+    #each-post {
         margin-left: 210px;
     }
 }
 @media(max-width:350px) {
-    #myDiv {
+    #each-post {
         margin-left: 210px;
     }
 }
 @media(max-width:343px) {
-    #myDiv {
+    #each-post {
         margin-left: 205px;
     }
 }
 @media(max-width:332px) {
-    #myDiv {
+    #each-post {
         margin-left: 197px;
     }
     .header-name {
@@ -635,7 +941,7 @@ html {
     }
 }
 @media(max-width:325px) {
-    #myDiv {
+    #each-post {
         margin-left: 192px;
     }
 }
