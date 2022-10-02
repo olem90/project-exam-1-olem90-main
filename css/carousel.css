@@ -501,7 +501,7 @@ html {
 }
 @media(max-width:661px) {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left: 35px;
+        margin-left: 30px;
     }
     .logo-image  {
         width: 110px;
