@@ -531,6 +531,14 @@ html {
     .carousel {
         width:80%;
     }
+    .nextBtn {
+        right: 3%;
+        top: 410px;
+    }
+    .prevBtn {
+        left: 3%;
+        top: 410px;
+    }
 }
 @media(max-width:652px) {
     #each-post {
