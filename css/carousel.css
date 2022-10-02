@@ -756,7 +756,7 @@ html {
 }
 @media(max-width:534px)  {
     #each-post {
-        margin-left: 250px;
+        margin-left: 258px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: 20px;
