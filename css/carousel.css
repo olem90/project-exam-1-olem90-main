@@ -1048,8 +1048,8 @@ html {
        margin-top: 31px;
        margin-left: 6px;
     }
-    .final-post{
-        margin-left: -60px;
+    .each-post > div {
+        margin-left: 0;
     }
 }
 @media(max-width:372px) {
