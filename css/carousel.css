@@ -1020,7 +1020,7 @@ html {
         margin-right: 46px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-inline: 6px;
+        margin-inline: 6px !important;
     }
 }
 @media(max-width:420px) {
