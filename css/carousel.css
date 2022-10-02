@@ -373,7 +373,7 @@ html {
     }
 
 }
-@media(max-width:775px) {
+@media(max-width:777px) {
     .nextBtn {
         right: 6%;
         top:480px;
@@ -386,7 +386,7 @@ html {
         width:75%;
     }
     #each-post {
-        margin-left: 352px;
+        margin-left: 344px;
         height: 80%;
     }
     .each-post > div {
