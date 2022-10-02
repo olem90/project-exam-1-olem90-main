@@ -315,7 +315,7 @@ html {
 }
 @media(max-width:814px){
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left: 36px;
+        margin-left: 33px;
     }
 }
 @media(max-width:809px) {
