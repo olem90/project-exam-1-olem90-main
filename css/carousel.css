@@ -1012,6 +1012,9 @@ html {
     .each-post > div {
         margin-left: 30px;
     }
+    .post-container {
+        border: 2px solid red;
+    }
 }
 @media(max-width:420px) {
     #each-post {
