@@ -2,7 +2,7 @@ body{
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-family: 'PT serif', 'Playfair Display', 'Courier New';
+    font-family: 'Playfair Display', 'Courier New';
     background-color: beige;
     display: flex;
     flex-direction: column;
