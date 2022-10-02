@@ -1015,7 +1015,8 @@ html {
 @media(max-width:430px) {
     .each-post > div {
         margin-inline: 6px;
-        
+        margin-right: auto;
+        margin-left: auto;
         color: red;
     }
    
