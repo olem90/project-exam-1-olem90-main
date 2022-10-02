@@ -899,7 +899,6 @@ html {
     }
     .carousel {
         width: 84%;
-        border: 2px solid red;
     }
     .nextBtn {
         right: 1%;
