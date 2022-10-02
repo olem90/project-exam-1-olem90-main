@@ -44,6 +44,7 @@ html {
     margin-inline: auto;
     font-size: 15px;
     font-family: 'Playfair Display', 'Courier New', 'monospace';
+    color: red;
 }
 .caption {
     width: 220px;
