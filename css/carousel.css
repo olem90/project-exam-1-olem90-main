@@ -1010,10 +1010,10 @@ html {
 }
 @media(max-width:430px) {
     #each-post {
-        margin-left: 295px;
+        margin-left: 340px;
     }
     .each-post > div {
-      
+      border: 2px solid purple;
     }
 }
 @media(max-width:420px) {
