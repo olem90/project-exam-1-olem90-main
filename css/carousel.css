@@ -1014,12 +1014,11 @@ html {
 }
 @media(max-width:430px) {
     .each-post > div {
-        margin-left: 30px;
+        margin-inline: auto;
     }
    
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: auto;
-        color: red;
     }
 }
 @media(max-width:420px) {
