@@ -483,10 +483,10 @@ html {
 }
 @media(max-width:672px) {
     #each-post {
-        margin-left: 325px;
+        margin-left: 322px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left: 44px;
+        margin-left: 40px;
     }
 
 }
