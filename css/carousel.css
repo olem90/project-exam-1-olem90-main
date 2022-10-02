@@ -1019,6 +1019,10 @@ html {
     .carousel-slide {
         margin-right: 46px;
     }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left:0px;
+        margin-inline: 6px;
+    }
 }
 @media(max-width:420px) {
     #each-post {
