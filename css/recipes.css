@@ -9,7 +9,6 @@ body {
 html {
     scroll-behavior: smooth;
     position: relative;
-    font-family: 'playfair display';
 }
 .footer-container-recipes {
     width:100%;
@@ -156,6 +155,7 @@ html {
     padding: 10px 40px;
     border-radius: 20px 0;
     margin-bottom: 50px;
+    font-family: 'playfair display';
  }
  .details-image {
     max-width: 500px;
