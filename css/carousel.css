@@ -901,6 +901,14 @@ html {
         width: 84%;
         border: 2px solid red;
     }
+    .nextBtn {
+        right: 1%;
+        top: 405px;
+    }
+    .prevBtn {
+        left: 1%;
+        top: 405px;
+    }
 }
 @media(max-width:485px) {
     #each-post {
