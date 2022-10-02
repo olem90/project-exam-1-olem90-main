@@ -687,7 +687,7 @@ html {
 }
 @media(max-width:570px) {
     #each-post {
-        margin-left: 276px;
+        margin-left: 283px;
     }
     .each-post > div > img {
         height: 50px;
@@ -700,7 +700,7 @@ html {
         font-size: 11px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left:50px;
+        margin-left:57px;
     } 
 }
 @media(max-width:564px) {
