@@ -596,11 +596,10 @@ html {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left:59px;
     } 
-   
 }
 @media(max-width:621px) {
     #each-post {
-        margin-left: 310px;
+        margin-left: 300px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left:52px;
