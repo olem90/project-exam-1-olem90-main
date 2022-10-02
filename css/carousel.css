@@ -501,7 +501,7 @@ html {
 }
 @media(max-width:661px) {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left: 46px;
+        margin-left: 40px;
     }
     .logo-image  {
         width: 110px;
@@ -536,7 +536,7 @@ html {
         margin-bottom: 0;
     }
     #each-post {
-        margin-left: 304px;
+        margin-left: 312px;
         height: 80%;
     }
     .view-recipe {
