@@ -725,7 +725,6 @@ html {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left:53px;
     }
-
 }
 @media(max-width:552px) {
     .nav-index > ul > a {
@@ -791,6 +790,14 @@ html {
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: 26px;
+    }
+    .nextBtn {
+        right: 1%;
+        top: 405px;
+    }
+    .prevBtn {
+        left: 3%;
+        top: 405px;
     }
 }  
 @media(max-width:516px) {
