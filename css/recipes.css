@@ -5,7 +5,7 @@ body {
     height: 100%;
     display: flex;
     position: relative;
-    font-family: 'PT serif', 'Playfair Display', 'Courier New';
+    font-family: 'Playfair Display', 'PT serif', 'Courier New';
 }
 html {
     scroll-behavior: smooth;
