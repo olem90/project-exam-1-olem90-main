@@ -1014,8 +1014,9 @@ html {
 }
 @media(max-width:430px) {
     .each-post > div {
-        margin-inline: auto;
-        gap: 6px;
+        margin-inline: 6px;
+        
+        color: red;
     }
    
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
