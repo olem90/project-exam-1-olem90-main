@@ -605,6 +605,14 @@ html {
     .final-post > h4 {
         font-size: 12px;
     }
+    .nextBtn {
+        right: 3%;
+        top: 400px;
+    }
+    .prevBtn {
+        left: 3%;
+        top: 400px;
+    }
 }
 @media(max-width:613px) {
     #each-post {
