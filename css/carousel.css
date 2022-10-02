@@ -895,7 +895,7 @@ html {
         margin-left: 227px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left: 20px;
+        margin-left: 18px;
     }
 }
 @media(max-width:485px) {
