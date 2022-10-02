@@ -615,7 +615,7 @@ html {
         font-size: 12px;
     }
 }
-@media(max-width:611px) {
+@media(max-width:613px) {
     #each-post {
         margin-left: 350px;
     }
