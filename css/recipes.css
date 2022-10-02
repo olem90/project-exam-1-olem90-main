@@ -43,11 +43,12 @@ html {
     width: 100%;
     margin-inline: auto;
     font-size: 15px;
-    font-family: 'Courier New', 'monospace';
+    font-family: 'Playfair Display', 'Courier New', 'monospace';
 }
 .caption {
     width: 220px;
     height: fit-content;
+    font-family: 'Playfair Display', 'Courier New', 'monospace';
 }
 .recipes-container {
     grid-template-columns: 1fr 1fr 1fr 1fr;
