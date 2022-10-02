@@ -308,6 +308,9 @@ html {
     #each-post {
         margin-left: 374px;
     }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 43px;
+    }
 
 }
 @media(max-width:809px) {
