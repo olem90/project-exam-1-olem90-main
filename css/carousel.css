@@ -1014,7 +1014,7 @@ html {
     }
     .post-container {
         border: 2px solid red;
-        margin-right: 30px;
+        margin-right: 50px;
     }
 }
 @media(max-width:420px) {
