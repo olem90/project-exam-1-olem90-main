@@ -892,6 +892,12 @@ html {
 }
 /*Mobile Screen*/
 @media(max-width:479px){
+    .nextBtn {
+      display: none;
+    }
+    .prevBtn {
+        display: none;
+    }
     .each-post {
         display: grid;
         grid-template-columns: 1fr 1fr;
