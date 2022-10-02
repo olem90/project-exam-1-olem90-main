@@ -949,6 +949,9 @@ html {
     .each-post > div > img {
         margin: 0;
     }
+    .carousel {
+        overflow: visible;
+    }
 }
 @media(max-width:460px) {
     .social-media {
