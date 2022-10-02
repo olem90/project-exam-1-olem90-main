@@ -937,6 +937,7 @@ html {
     .each-post > div {
         width: 120px;
         height: 80%;
+        align-items: center;
     }
     .each-post > div > img {
         width: 100px;
