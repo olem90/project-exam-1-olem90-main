@@ -129,6 +129,9 @@ html {
 .nav-index {
     margin-inline: auto;
 }
+.index-footer {
+    top: 200%
+}
 /*Media Queries for index page*/
 @media(max-width:1540px){
     .nextBtn {
