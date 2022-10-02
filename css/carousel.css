@@ -549,12 +549,12 @@ html {
         width:80%;
     }
 }
-@media(max-width:648px) {
+@media(max-width:652px) {
     #each-post {
-        margin-left: 298px;
+        margin-left: 292px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left:34px;
+        margin-left:26px;
     }
 
 }
