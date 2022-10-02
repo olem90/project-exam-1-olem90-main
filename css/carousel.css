@@ -1018,7 +1018,7 @@ html {
     }
    
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-inline: 6px ;
+        margin-inline: auto;
         color: red;
     }
 }
