@@ -884,6 +884,14 @@ html {
         margin-left: 12px;
     }
 }
+@media(max-width:485px) {
+    #each-post {
+        margin-left: 224px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 12px;
+    }
+}
 /*Mobile Screen*/
 @media(max-width:479px){
     .each-post {
