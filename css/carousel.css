@@ -912,10 +912,18 @@ html {
 }
 @media(max-width:485px) {
     #each-post {
-        margin-left: 221px;
+        margin-left: 251px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: 8px;
+    }
+    .nextBtn {
+        right: 1%;
+        top: 405px;
+    }
+    .prevBtn {
+        left: 3%;
+        top: 405px;
     }
 }
 /*Mobile Screen*/
