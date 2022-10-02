@@ -772,10 +772,10 @@ html {
 }  
 @media(max-width:523px)  {
     #each-post {
-        margin-left: 244px;
+        margin-left: 246px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left: 33px;
+        margin-left: 31px;
     }
 }  
 @media(max-width:516px) {
