@@ -607,11 +607,11 @@ html {
     }
     .nextBtn {
         right: 3%;
-        top: 400px;
+        top: 405px;
     }
     .prevBtn {
         left: 3%;
-        top: 400px;
+        top: 405px;
     }
 }
 @media(max-width:613px) {
