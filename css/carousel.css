@@ -365,6 +365,15 @@ html {
     }
 
 }
+@media(max-width:789px){
+    #each-post {
+        margin-left: 334px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
+        margin-left: 34px;
+    }
+
+}
 @media(max-width:775px) {
     .nextBtn {
         right: 6%;
