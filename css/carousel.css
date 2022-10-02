@@ -953,6 +953,7 @@ html {
     }
     .view-recipe {
        margin-top: 6px;
+       font-size: 12px;
     } 
     .each-post > div > img {
         margin: 0;
