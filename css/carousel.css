@@ -650,10 +650,13 @@ html {
 }
 @media(max-width:590px) {
     #each-post {
-        margin-left: 321px;
+        margin-left: 315px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left:56px;
+    }
+    .each-post > div {
+        margin-inline: 5px;
     }
 
 }
