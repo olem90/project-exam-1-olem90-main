@@ -1050,7 +1050,9 @@ html {
     }
 }
 @media(max-width:372px) {
-    
+    .final-post {
+        margin-inline: auto;
+    }
 }
 @media(max-width:366px) {
     .final-post > h4 {
