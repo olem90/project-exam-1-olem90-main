@@ -43,8 +43,7 @@ html {
     width: 100%;
     margin-inline: auto;
     font-size: 15px;
-    font-family: 'Playfair Display', 'Courier New', 'monospace';
-    font-weight: bold;
+    font-family: 'verdana';
 }
 .caption {
     width: 220px;
