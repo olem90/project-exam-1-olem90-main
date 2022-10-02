@@ -764,7 +764,7 @@ html {
 } 
 @media(max-width:529px)  {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left: 26px;
+        margin-left: 30px;
     }
     #each-post {
         margin-left: 251px;
