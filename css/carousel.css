@@ -992,7 +992,7 @@ html {
         margin-left: 280px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left:0px;
+        margin-inline: 6px;
     }
 }
 @media(max-width:450px) {
