@@ -1106,9 +1106,3 @@ html {
     }
    
 }
-@media(max-width:325px) {
-    #each-post {
-        margin-left: 192px;
-        margin-inline: 5px;
-    }
-}
