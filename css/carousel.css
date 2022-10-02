@@ -276,7 +276,7 @@ html {
     .carousel {
         display: flex;
         justify-content: center;
-        width: 75%;
+        width: 80%;
         margin-top: 50px;
         overflow: visible;
         border: 2px solid red;
