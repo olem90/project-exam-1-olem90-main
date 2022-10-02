@@ -480,7 +480,6 @@ html {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: 32px;
     }
-
 }
 @media(max-width:661px) {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
@@ -732,7 +731,7 @@ html {
     }
     .logo-image  {
         width: 96px;
-        margin-top: 8px;
+        margin-top:12px;
     }
     .final-post > h4 {
         margin-bottom: 5px;
