@@ -637,6 +637,14 @@ html {
     .each-post > div {
         height: 76%;
     }
+    .nextBtn {
+        right: 2%;
+        top: 405px;
+    }
+    .prevBtn {
+        left: 4%;
+        top: 405px;
+    }
 }
 @media(max-width:602px) {
     #each-post {
