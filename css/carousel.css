@@ -1015,13 +1015,9 @@ html {
 @media(max-width:430px) {
     .each-post > div {
         margin-inline: 6px;
-        margin-right: auto;
-        margin-left: auto;
-        color: red;
     }
-   
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left: auto;
+        margin-inline: 6px;
     }
 }
 @media(max-width:420px) {
