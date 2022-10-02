@@ -155,32 +155,26 @@ html {
 @media(max-width:1260px) {
     .nextBtn {
         right: 7%;
-        top: 500px;
     }
     .prevBtn {
         left: 7%;
-        top: 500px;
     }
 }
 @media(max-width:1142px){
     .nextBtn {
         position: absolute;
         right: 3%;
-        top: 500px;
     }
     .prevBtn {
         left: 3%;
-        top: 500px;
     }
 }
 @media(max-width:1045px){
     .nextBtn {
         right: 10%;
-        top: 500px;
     }
     .prevBtn {
         left: 10%;
-        top: 500px;
     }
     .each-post > div > img {
         width: 152px;
@@ -205,11 +199,9 @@ html {
 @media(max-width:995px) {
     .nextBtn {
         right: 4%;
-        top: 500px;
     }
     .prevBtn {
         left: 4%;
-        top: 500px;
     }
     .final-post > h4 {
         margin-top: 10px;
@@ -223,21 +215,17 @@ html {
 @media(max-width:868px) {
     .nextBtn {
         right: 2%;
-        top: 500px;
     }
     .prevBtn {
         left: 2%;
-        top: 500px;
     }
 }
 @media(max-width:832px) {
     .nextBtn {
         right: 4%;
-        top: 500px;
     }
     .prevBtn {
         left: 4%;
-        top: 500px;
     }
     .each-post > div {
         width: 156px;
@@ -309,7 +297,6 @@ html {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: 41px;
     }
-
 }
 @media(max-width:814px){
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
@@ -369,16 +356,13 @@ html {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: 22px;
     }
-
 }
 @media(max-width:777px) {
     .nextBtn {
         right: 6%;
-        top:450px;
     }
     .prevBtn {
         left: 6%;
-        top:450px;
     }
     .carousel {
         width:75%;
@@ -419,7 +403,6 @@ html {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: 65px;
     }
-
 }
 @media(max-width:740px) {
     #each-post {
@@ -428,7 +411,6 @@ html {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: 51px;
     }
-
 }
 @media(max-width:726px) {
     #each-post {
@@ -437,7 +419,6 @@ html {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: 41px;
     }
-
 }
 @media(max-width:716px) {
     #each-post {
@@ -446,7 +427,6 @@ html {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: 34px;
     }
-
 }
 @media(max-width:706px) {
     #each-post {
@@ -455,12 +435,17 @@ html {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left: 22px;
     }
+    .nextBtn {
+        right: 3%;
+    }
+    .prevBtn {
+        left: 3%;
 
+    }
 }
 @media(max-width:694px) {
     #each-post {
         margin-left: 335px;
-
     }
     .carousel{
         width: 80%;
@@ -468,7 +453,6 @@ html {
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
         margin-left:47px;
     }
-
 }
 @media(max-width:678px) {
     #each-post {
