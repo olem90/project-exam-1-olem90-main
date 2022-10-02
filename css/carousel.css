@@ -278,8 +278,6 @@ html {
         justify-content: center;
         width: 80%;
         margin-top: 50px;
-        overflow: visible;
-        border: 2px solid red;
     }
     .index-footer {
         position: absolute;
