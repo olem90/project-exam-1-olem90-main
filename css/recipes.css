@@ -73,6 +73,7 @@ html {
     background-color: rgb(246, 255, 213);
     z-index: 99;
     font-family: 'Playfair Display', 'Courier New', 'monospace';
+    font-weight: normal;
 }
 .single-recipe:hover {
     border: 4px solid rgb(4, 100, 28);
