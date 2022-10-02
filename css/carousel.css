@@ -1009,6 +1009,9 @@ html {
     }
 }
 @media(max-width:430px) {
+    #each-post {
+        margin-right: -30px;
+    }
     .each-post > div {
 
     }
