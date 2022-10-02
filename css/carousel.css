@@ -818,7 +818,7 @@ html {
         font-size: 8px;
     }
 }
-@media(max-width:505px) {
+@media(max-width:507px) {
     #each-post {
         margin-left: 248px;
     }
