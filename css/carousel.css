@@ -1050,6 +1050,11 @@ html {
     }
     .each-post > div {
         margin-left: 0;
+        margin-inline: 6px;
+    }
+    .each-post > div:nth-child(5), .each-post > div:nth-child(9) {  
+        margin-left: 0px;
+        margin-inline: 6px;
     }
 }
 @media(max-width:372px) {
