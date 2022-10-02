@@ -1037,16 +1037,8 @@ html {
     }
 }
 @media(max-width:400px) {
-    #each-post {
-        margin-left: 238px;
-    }
     .each-post > div {
-        width: 140px;
-        height: 87%;
-    }
-    .each-post > div > img {
-        width:100%;
-        height: 100px;
+        
     }
 }
 @media(max-width:390px) {
