@@ -488,7 +488,7 @@ html {
     }
     .logo-image  {
         width: 110px;
-       
+        margin-top: 16px;
     }
     .nav-index > ul > a {
         font-size: 15px;
