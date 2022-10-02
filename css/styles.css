@@ -85,7 +85,7 @@ nav > ul > a {
     text-decoration: none;
     color: #000;
     font-weight: bold;
-    font-family: 'aboreto';
+    font-family: 'aboreto', 'playfair Display', 'Courier New', 'monospace';
     flex-shrink: 0;
     margin-inline:auto;
     font-size: 18px;
@@ -340,7 +340,6 @@ nav > ul > a :hover {
         margin-inline: 30px;
     }
     .nav-about > ul {
-        margin-inline: auto;
         width: 500px;
     }
     .nav-about > ul > a {
@@ -348,9 +347,6 @@ nav > ul > a :hover {
     }
  }
  @media(max-width:636px) {
-    .about-container {
-        margin-inline: 30px;
-    }
     .about-image > img {
         max-width: 250px;
         object-fit: cover;
@@ -369,7 +365,6 @@ nav > ul > a :hover {
 @media(max-width:563px)  {
     .about-image > img {
         max-width: 200px;
-        object-fit: cover;
          height: 254px;
     }
     .logo-image-about {
@@ -395,7 +390,6 @@ nav > ul > a :hover {
     }
     .about-image > img {
         max-width: 280px;
-        object-fit: cover;
         height: 254px;
     }
     .nav-about > ul > a {
@@ -445,7 +439,6 @@ nav > ul > a :hover {
  @media(max-width:375px) {
     .about-image > img {
         max-width: 240px;
-        object-fit: cover;
         height: 234px;
     }
     .about-paragraph {
@@ -464,7 +457,6 @@ nav > ul > a :hover {
  @media(max-width:345px) {
     .about-image > img {
         max-width: 200px;
-        object-fit: cover;
         height: 214px;
     }
     .logo-image-about {
