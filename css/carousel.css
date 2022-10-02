@@ -132,7 +132,7 @@ html {
 .index-footer {
     top: 200%
 }
-/*Media Queries for index page*/
+/*Media Queries for home page*/
 @media(max-width:1540px){
     .nextBtn {
     right: 15%;
@@ -940,7 +940,7 @@ html {
     }
     .index-footer {
         position: absolute;
-        top: 260%;
+        top: 240%;
         left: 0;
     }
     .about-footer  a {
