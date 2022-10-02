@@ -386,7 +386,7 @@ html {
         width:75%;
     }
     #each-post {
-        margin-left: 369px;
+        margin-left: 366px;
         height: 80%;
     }
     .each-post > div {
@@ -399,7 +399,7 @@ html {
         padding-inline: 4px;
     }
     .each-post > div:nth-child(5), .each-post > div:nth-child(9) {
-        margin-left: 88px;
+        margin-left: 78px;
     }
     .final-post > h4 {
         font-size: 13px;
