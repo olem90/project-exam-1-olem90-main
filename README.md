@@ -50,3 +50,11 @@ Website also contains an about me page and a contact page.
         </div>
     </li>
 </ul>
+  
+  ## Getting Started
+  ### Installing
+  1. Open with Github desktop
+  2. In Github Desktop open the project with your code editor
+  <p>Thats it. Now the project should be pulled to your code editor.</p>
+  
+  
